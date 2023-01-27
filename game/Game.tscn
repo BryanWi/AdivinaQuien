@@ -6,70 +6,187 @@
 anchor_right = 1.0
 anchor_bottom = 1.0
 
-[node name="GridContainer" type="GridContainer" parent="."]
+[node name="Tablero" type="GridContainer" parent="."]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -445.0
-margin_top = -198.0
-margin_right = 445.0
-margin_bottom = 202.0
-custom_constants/vseparation = 20
-custom_constants/hseparation = 20
-columns = 3
+margin_left = -417.0
+margin_top = -178.0
+margin_right = 417.0
+margin_bottom = 282.0
+grow_horizontal = 2
+custom_constants/vseparation = 5
+custom_constants/hseparation = 5
+columns = 6
 
-[node name="Porfirio" type="TextureButton" parent="GridContainer"]
-margin_right = 200.0
-margin_bottom = 200.0
-rect_min_size = Vector2( 200, 200 )
+[node name="Porfirio" type="TextureButton" parent="Tablero"]
+margin_right = 150.0
+margin_bottom = 150.0
+rect_min_size = Vector2( 150, 150 )
 texture_normal = ExtResource( 1 )
 expand = true
 stretch_mode = 5
 
-[node name="Porfirio2" type="TextureButton" parent="GridContainer"]
-margin_left = 220.0
-margin_right = 420.0
-margin_bottom = 200.0
-rect_min_size = Vector2( 200, 200 )
+[node name="Porfirio2" type="TextureButton" parent="Tablero"]
+margin_left = 155.0
+margin_right = 305.0
+margin_bottom = 150.0
+rect_min_size = Vector2( 150, 150 )
 texture_normal = ExtResource( 1 )
 expand = true
 stretch_mode = 5
 
-[node name="Porfirio3" type="TextureButton" parent="GridContainer"]
-margin_left = 440.0
-margin_right = 640.0
-margin_bottom = 200.0
-rect_min_size = Vector2( 200, 200 )
+[node name="Porfirio3" type="TextureButton" parent="Tablero"]
+margin_left = 310.0
+margin_right = 460.0
+margin_bottom = 150.0
+rect_min_size = Vector2( 150, 150 )
 texture_normal = ExtResource( 1 )
 expand = true
 stretch_mode = 5
 
-[node name="Porfirio4" type="TextureButton" parent="GridContainer"]
-margin_top = 220.0
-margin_right = 200.0
-margin_bottom = 420.0
-rect_min_size = Vector2( 200, 200 )
+[node name="Porfirio4" type="TextureButton" parent="Tablero"]
+margin_left = 465.0
+margin_right = 615.0
+margin_bottom = 150.0
+rect_min_size = Vector2( 150, 150 )
 texture_normal = ExtResource( 1 )
 expand = true
 stretch_mode = 5
 
-[node name="Porfirio5" type="TextureButton" parent="GridContainer"]
-margin_left = 220.0
-margin_top = 220.0
-margin_right = 420.0
-margin_bottom = 420.0
-rect_min_size = Vector2( 200, 200 )
+[node name="Porfirio5" type="TextureButton" parent="Tablero"]
+margin_left = 620.0
+margin_right = 770.0
+margin_bottom = 150.0
+rect_min_size = Vector2( 150, 150 )
 texture_normal = ExtResource( 1 )
 expand = true
 stretch_mode = 5
 
-[node name="Porfirio6" type="TextureButton" parent="GridContainer"]
-margin_left = 440.0
-margin_top = 220.0
-margin_right = 640.0
-margin_bottom = 420.0
-rect_min_size = Vector2( 200, 200 )
+[node name="Porfirio6" type="TextureButton" parent="Tablero"]
+margin_left = 775.0
+margin_right = 925.0
+margin_bottom = 150.0
+rect_min_size = Vector2( 150, 150 )
+texture_normal = ExtResource( 1 )
+expand = true
+stretch_mode = 5
+
+[node name="Porfirio7" type="TextureButton" parent="Tablero"]
+margin_top = 155.0
+margin_right = 150.0
+margin_bottom = 305.0
+rect_min_size = Vector2( 150, 150 )
+texture_normal = ExtResource( 1 )
+expand = true
+stretch_mode = 5
+
+[node name="Porfirio8" type="TextureButton" parent="Tablero"]
+margin_left = 155.0
+margin_top = 155.0
+margin_right = 305.0
+margin_bottom = 305.0
+rect_min_size = Vector2( 150, 150 )
+texture_normal = ExtResource( 1 )
+expand = true
+stretch_mode = 5
+
+[node name="Porfirio9" type="TextureButton" parent="Tablero"]
+margin_left = 310.0
+margin_top = 155.0
+margin_right = 460.0
+margin_bottom = 305.0
+rect_min_size = Vector2( 150, 150 )
+texture_normal = ExtResource( 1 )
+expand = true
+stretch_mode = 5
+
+[node name="Porfirio10" type="TextureButton" parent="Tablero"]
+margin_left = 465.0
+margin_top = 155.0
+margin_right = 615.0
+margin_bottom = 305.0
+rect_min_size = Vector2( 150, 150 )
+texture_normal = ExtResource( 1 )
+expand = true
+stretch_mode = 5
+
+[node name="Porfirio11" type="TextureButton" parent="Tablero"]
+margin_left = 620.0
+margin_top = 155.0
+margin_right = 770.0
+margin_bottom = 305.0
+rect_min_size = Vector2( 150, 150 )
+texture_normal = ExtResource( 1 )
+expand = true
+stretch_mode = 5
+
+[node name="Porfirio12" type="TextureButton" parent="Tablero"]
+margin_left = 775.0
+margin_top = 155.0
+margin_right = 925.0
+margin_bottom = 305.0
+rect_min_size = Vector2( 150, 150 )
+texture_normal = ExtResource( 1 )
+expand = true
+stretch_mode = 5
+
+[node name="Porfirio13" type="TextureButton" parent="Tablero"]
+margin_top = 310.0
+margin_right = 150.0
+margin_bottom = 460.0
+rect_min_size = Vector2( 150, 150 )
+texture_normal = ExtResource( 1 )
+expand = true
+stretch_mode = 5
+
+[node name="Porfirio14" type="TextureButton" parent="Tablero"]
+margin_left = 155.0
+margin_top = 310.0
+margin_right = 305.0
+margin_bottom = 460.0
+rect_min_size = Vector2( 150, 150 )
+texture_normal = ExtResource( 1 )
+expand = true
+stretch_mode = 5
+
+[node name="Porfirio15" type="TextureButton" parent="Tablero"]
+margin_left = 310.0
+margin_top = 310.0
+margin_right = 460.0
+margin_bottom = 460.0
+rect_min_size = Vector2( 150, 150 )
+texture_normal = ExtResource( 1 )
+expand = true
+stretch_mode = 5
+
+[node name="Porfirio16" type="TextureButton" parent="Tablero"]
+margin_left = 465.0
+margin_top = 310.0
+margin_right = 615.0
+margin_bottom = 460.0
+rect_min_size = Vector2( 150, 150 )
+texture_normal = ExtResource( 1 )
+expand = true
+stretch_mode = 5
+
+[node name="Porfirio17" type="TextureButton" parent="Tablero"]
+margin_left = 620.0
+margin_top = 310.0
+margin_right = 770.0
+margin_bottom = 460.0
+rect_min_size = Vector2( 150, 150 )
+texture_normal = ExtResource( 1 )
+expand = true
+stretch_mode = 5
+
+[node name="Porfirio18" type="TextureButton" parent="Tablero"]
+margin_left = 775.0
+margin_top = 310.0
+margin_right = 925.0
+margin_bottom = 460.0
+rect_min_size = Vector2( 150, 150 )
 texture_normal = ExtResource( 1 )
 expand = true
 stretch_mode = 5
