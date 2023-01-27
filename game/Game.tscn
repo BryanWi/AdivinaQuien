@@ -8,6 +8,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 margin_left = 1.0
 margin_right = 1.0
+<<<<<<< Updated upstream
 script = ExtResource( 2 )
 
 [node name="Texto_enunciado" type="Label" parent="."]
@@ -18,6 +19,8 @@ anchor_bottom = 0.157
 margin_left = -0.392002
 margin_right = 0.463989
 margin_bottom = -0.200005
+=======
+>>>>>>> Stashed changes
 
 [node name="GridContainer" type="GridContainer" parent="."]
 anchor_left = 0.5
@@ -26,8 +29,13 @@ anchor_right = 0.5
 anchor_bottom = 0.5
 margin_left = -415.0
 margin_top = -198.0
+<<<<<<< Updated upstream
 margin_right = 479.0
 margin_bottom = 476.0
+=======
+margin_right = 449.0
+margin_bottom = 458.0
+>>>>>>> Stashed changes
 custom_constants/vseparation = 20
 custom_constants/hseparation = 20
 columns = 4
