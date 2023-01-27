@@ -50,6 +50,8 @@ func _ready():
 
 
 func new_game():
+	$Label.text = ""
+	
 	for item in $Tablero.get_children():
 		item.queue_free()
 	
@@ -94,7 +96,7 @@ func check_answer(nombre: String, btn_name: String):
 #	pass
 
 func set_pista():
-	$Label.text = doc[presi]["pistas"][n_pista]
+	$Label.text += doc[presi]["pistas"][n_pista] + "\n"
 	n_pista += 1
 	if n_pista >= doc[presi]["pistas"].size():
 		n_pista= 0
