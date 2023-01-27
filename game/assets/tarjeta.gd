@@ -1,18 +1,18 @@
 extends TextureButton
 
 
-signal send_respuesta(respuesta)
+signal send_respuesta(respuesta,button_name)
 var NOMBRE:String
 
 
 func _ready():
 	pass # Replace with function body.
-	_set_Data("Porfirio Díaz", "diaz_porfirio_2.jpg")
-	print(list_files_in_directory("res://imagenes/"))
+	#set_Data("Porfirio Díaz", "diaz_porfirio_2.jpg")
+	#print(list_files_in_directory("res://imagenes/"))
 
-func _set_Data(nombre: String, image_path: String):
+func set_Data(nombre: String, image_path: String):
 	NOMBRE = nombre
-	"res://imagenes/"
+	name = nombre
 	var image = Image.new()
 	image.load("res://imagenes/" + image_path)
 	var t = ImageTexture.new()
@@ -21,7 +21,7 @@ func _set_Data(nombre: String, image_path: String):
 
 
 func _on_tarjeta_button_down():
-	emit_signal("send_respuesta",NOMBRE)
+	emit_signal("send_respuesta",NOMBRE,name)
 
 func list_files_in_directory(path):
 	var files = []
