@@ -106,26 +106,91 @@ var doc: Dictionary = {
 			"Tuvo 4 mandatos entre 1833 y 1834",
 			"Asumió el cargo varias veces debido a ausencias de Santa Anna"
 		]
+	}, # Aquí hay un salto temporal de presidentes, aunque el orden como tal no importa
+	"Benito Juarez" :{
+		"nombre" : "Benito Juarez",
+		"image" : "Benito Juarez.png",
+		"pistas" : [
+			"pista 1",
+			"pista 2",
+			"pista 3"
+		]
+	},
+	"Felix Zuloaga" :{
+		"nombre" : "Félix Zuloaga",
+		"image" : "Felix zuloaga.png",
+		"pistas" : [
+			"pista 1",
+			"pista 2",
+			"pista 3"
+		]
+	},
+	"Jose Maria Iglesias" :{
+		"nombre" : "Jose Maria Iglesias",
+		"image" : "Jose MAria Iglesias.png",
+		"pistas" : [
+			"pista 1",
+			"pista 2",
+			"pista 3"
+		]
+	},
+	"Juan N Mendez" :{
+		"nombre" : "Juan N Mendez",
+		"image" : "Juan N Mendez.png",
+		"pistas" : [
+			"pista 1",
+			"pista 2",
+			"pista 3"
+		]
+	},
+	"Manuel Robles Pezuela" :{
+		"nombre" : "Manuel Robles Pezuela",
+		"image" : "Manuel Robles Pezuela.png",
+		"pistas" : [
+			"pista 1",
+			"pista 2",
+			"pista 3"
+		]
+	},
+	"Maximiliano de Hasburgo" :{
+		"nombre" : "Maximiliano de Hasburgo",
+		"image" : "Maximiliano de hasburgo.png",
+		"pistas" : [
+			"pista 1",
+			"pista 2",
+			"pista 3"
+		]
+	},
+	"Sebastian Lerda de Tejada" :{
+		"nombre" : "Sebastian Lerda de Tejada",
+		"image" : "Sebastian Lerda de Tejada.png",
+		"pistas" : [
+			"pista 1",
+			"pista 2",
+			"pista 3"
+		]
 	}
 }
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	print(doc_test)
 	$WinScreen.visible = false
-	for i in range(7):
-		if i%2 == 0:
-			doc["PD" + str(i)]={
-			"nombre" : "Porfirio Díaz",
-			"image" : "diaz_porfirio_2.jpg",
-			"pistas" : ["Pista 1", "Pista 2", "Pista 3"]
-			}
-		else:
-			
-			doc["AMLO" + str(i)]={
-			"nombre" : "Andrés Manuel López Obrador",
-			"image" : "AMLO.jpg",
-			"pistas" : ["Pista 1", "Pista 2", "Pista 3"]
-			}
+	print(typeof(doc_test))
+#	for i in range(7):
+#		if i%2 == 0:
+#			doc["PD" + str(i)]={
+#			"nombre" : "Porfirio Díaz",
+#			"image" : "diaz_porfirio_2.jpg",
+#			"pistas" : ["Pista 1", "Pista 2", "Pista 3"]
+#			}
+#		else:
+#
+#			doc["AMLO" + str(i)]={
+#			"nombre" : "Andrés Manuel López Obrador",
+#			"image" : "AMLO.jpg",
+#			"pistas" : ["Pista 1", "Pista 2", "Pista 3"]
+#			}
 	
 	new_game()
 
@@ -175,6 +240,7 @@ func check_answer(nombre: String, btn_name: String):
 		game_won()
 	else:
 		print("incorrecto")
+		$Sonidos/error_fx.play()
 		errores += 1
 		$Error_Label.text = "Errores "+str(errores)+"/3"
 		if errores == 3:

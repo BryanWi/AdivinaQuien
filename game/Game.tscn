@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://sonidos/Sonido Victoria.wav" type="AudioStream" id=1]
 [ext_resource path="res://game/Game.gd" type="Script" id=2]
+[ext_resource path="res://sonidos/Sonido Error.wav" type="AudioStream" id=3]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
@@ -46,6 +47,11 @@ margin_bottom = 40.0
 
 [node name="win_fx" type="AudioStreamPlayer" parent="Sonidos"]
 stream = ExtResource( 1 )
+mix_target = 1
+
+[node name="error_fx" type="AudioStreamPlayer" parent="Sonidos"]
+stream = ExtResource( 3 )
+volume_db = -8.667
 mix_target = 1
 
 [node name="Error_Label" type="Label" parent="."]
