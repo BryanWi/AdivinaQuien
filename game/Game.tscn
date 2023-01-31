@@ -41,4 +41,12 @@ autowrap = true
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 
+[node name="Error_Label" type="Label" parent="."]
+margin_left = 39.0
+margin_top = 20.0
+margin_right = 182.0
+margin_bottom = 86.0
+text = "Errores #/#"
+align = 1
+
 [connection signal="button_down" from="NuevoJuego" to="." method="_on_NuevoJuego_button_down"]

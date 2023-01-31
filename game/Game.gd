@@ -137,6 +137,7 @@ func new_game():
 	errores = 0
 	n_pista = 0
 	pistas = []
+	$Error_Label.text = "Errores "+str(errores)+"/3"
 	
 	for item in $Tablero.get_children():
 		item.queue_free()
@@ -176,6 +177,7 @@ func check_answer(nombre: String, btn_name: String):
 	else:
 		print("incorrecto")
 		errores += 1
+		$Error_Label.text = "Errores "+str(errores)+"/3"
 		if errores == 3:
 			game_lost()
 			return
