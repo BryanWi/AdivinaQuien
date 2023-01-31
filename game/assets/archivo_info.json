@@ -1,0 +1,12 @@
+[
+	{
+		"nombre": "Porfirio Díaz",
+		"image": "diaz_porfirio_2.jpg",
+		"pistas": ["Mandó durante el porfiriato", "Pista 2", "Pista 3"]
+	},	
+	{
+		"nombre": "Andrés Manuel López Obrador",
+		"image": "AMLO.jpg",
+		"pistas": ["Mandó durante el periodo 2018-2024", "Pista 2", "Pista 3"]
+	}
+]
