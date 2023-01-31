@@ -1,6 +1,5 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=2 format=2]
 
-[ext_resource path="res://game/assets/tarjeta.tscn" type="PackedScene" id=1]
 [ext_resource path="res://game/Game.gd" type="Script" id=2]
 
 [node name="Control" type="Control"]
@@ -13,104 +12,14 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -417.0
+margin_left = -488.0
 margin_top = -178.0
-margin_right = 417.0
+margin_right = 488.0
 margin_bottom = 282.0
 grow_horizontal = 2
 custom_constants/vseparation = 5
 custom_constants/hseparation = 5
-columns = 6
-
-[node name="tarjeta" parent="Tablero" instance=ExtResource( 1 )]
-
-[node name="tarjeta2" parent="Tablero" instance=ExtResource( 1 )]
-margin_left = 155.0
-margin_right = 305.0
-
-[node name="tarjeta3" parent="Tablero" instance=ExtResource( 1 )]
-margin_left = 310.0
-margin_right = 460.0
-
-[node name="tarjeta4" parent="Tablero" instance=ExtResource( 1 )]
-margin_left = 465.0
-margin_right = 615.0
-
-[node name="tarjeta5" parent="Tablero" instance=ExtResource( 1 )]
-margin_left = 620.0
-margin_right = 770.0
-
-[node name="tarjeta6" parent="Tablero" instance=ExtResource( 1 )]
-margin_left = 775.0
-margin_right = 925.0
-
-[node name="tarjeta7" parent="Tablero" instance=ExtResource( 1 )]
-margin_top = 155.0
-margin_bottom = 305.0
-
-[node name="tarjeta8" parent="Tablero" instance=ExtResource( 1 )]
-margin_left = 155.0
-margin_top = 155.0
-margin_right = 305.0
-margin_bottom = 305.0
-
-[node name="tarjeta9" parent="Tablero" instance=ExtResource( 1 )]
-margin_left = 310.0
-margin_top = 155.0
-margin_right = 460.0
-margin_bottom = 305.0
-
-[node name="tarjeta10" parent="Tablero" instance=ExtResource( 1 )]
-margin_left = 465.0
-margin_top = 155.0
-margin_right = 615.0
-margin_bottom = 305.0
-
-[node name="tarjeta11" parent="Tablero" instance=ExtResource( 1 )]
-margin_left = 620.0
-margin_top = 155.0
-margin_right = 770.0
-margin_bottom = 305.0
-
-[node name="tarjeta12" parent="Tablero" instance=ExtResource( 1 )]
-margin_left = 775.0
-margin_top = 155.0
-margin_right = 925.0
-margin_bottom = 305.0
-
-[node name="tarjeta13" parent="Tablero" instance=ExtResource( 1 )]
-margin_top = 310.0
-margin_bottom = 460.0
-
-[node name="tarjeta14" parent="Tablero" instance=ExtResource( 1 )]
-margin_left = 155.0
-margin_top = 310.0
-margin_right = 305.0
-margin_bottom = 460.0
-
-[node name="tarjeta15" parent="Tablero" instance=ExtResource( 1 )]
-margin_left = 310.0
-margin_top = 310.0
-margin_right = 460.0
-margin_bottom = 460.0
-
-[node name="tarjeta16" parent="Tablero" instance=ExtResource( 1 )]
-margin_left = 465.0
-margin_top = 310.0
-margin_right = 615.0
-margin_bottom = 460.0
-
-[node name="tarjeta17" parent="Tablero" instance=ExtResource( 1 )]
-margin_left = 620.0
-margin_top = 310.0
-margin_right = 770.0
-margin_bottom = 460.0
-
-[node name="tarjeta18" parent="Tablero" instance=ExtResource( 1 )]
-margin_left = 775.0
-margin_top = 310.0
-margin_right = 925.0
-margin_bottom = 460.0
+columns = 7
 
 [node name="NuevoJuego" type="Button" parent="."]
 anchor_left = 1.0
@@ -128,5 +37,8 @@ margin_left = -301.0
 margin_top = 20.0
 margin_right = 305.0
 margin_bottom = 97.0
+autowrap = true
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 
 [connection signal="button_down" from="NuevoJuego" to="." method="_on_NuevoJuego_button_down"]

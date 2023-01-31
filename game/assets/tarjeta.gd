@@ -13,15 +13,19 @@ func _ready():
 func set_Data(nombre: String, image_path: String):
 	NOMBRE = nombre
 	name = nombre
-	var image = Image.new()
-	image.load("res://imagenes/" + image_path)
-	var t = ImageTexture.new()
-	t.create_from_image(image)
-	self.texture_normal = t
+	$ColorRect/Label.text = nombre
+	$ColorRect.visible = false
+#	var image = Image.new()
+#	image.load("res://imagenes/" + image_path)
+#	var t = ImageTexture.new()
+#	t.create_from_image(image)
+#	self.texture_normal = t
+	self.texture_normal = load("res://imagenes/" + image_path)
 
 
 func _on_tarjeta_button_down():
 	emit_signal("send_respuesta",NOMBRE,name)
+	
 
 func list_files_in_directory(path):
 	var files = []
@@ -39,3 +43,11 @@ func list_files_in_directory(path):
 	dir.list_dir_end()
 
 	return files
+
+
+func _on_tarjeta_mouse_entered():
+	$ColorRect.visible = true
+
+
+func _on_tarjeta_mouse_exited():
+	$ColorRect.visible = false
