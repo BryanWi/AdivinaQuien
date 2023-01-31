@@ -1,0 +1,145 @@
+[
+	{
+		"nombre" : "Guadalupe Victoria",
+		"image" : "Guadalupe Victoria.jpg",
+		"pistas" : [
+			"Inició su gubernatura en 1824",
+			"Terminó de gobernar en 1829",
+			"Fue el primer presidente",
+			"Fue resultado de las primeras elecciones federales"
+		]
+	},
+	{
+		"nombre" : "Vicente Guerrero",
+		"image" : "Vicente Guerrero.png",
+		"pistas" : [
+			"Inició su gubernatura en 1829",
+			"Fue el segundo presidente",
+			"Terminó de gobernar en el año en que empezó",
+			"Su gobierno duró 8 meses"
+		]
+	},
+	{
+		"nombre" : "Jose María Bocanegra",
+		"image" : "José María Bocanegra.png",
+		"pistas" : [
+			"Fue el segundo presidente en iniciar su gobierno en 1829",
+			"Su gobierno duró 7 días",
+			"Fue el tercer presidente",
+			"Cedió su presidencia tras un ataque de insurgentes que rodearon el Palacio Nacional"
+		]
+	},
+	{
+		"nombre" : "Pedro Vélez",
+		"image" : "Pedro Vélez.png",
+		"pistas" : [
+			"Gobierno de 3 personas iniciado en diciembre de 1829",
+			"Gobernó Junto a Luis Quintanar y Lucas Alamán",
+			"Tercer gobierno de 1829",
+			"Duró por 8 días"
+		]
+	},
+	{
+		"nombre" : "Anastasio Bustamante",
+		"image" : "Anastasio Bustamante.png",
+		"pistas" : [
+			"Inició gobierno en 1930",
+			"Terminó de gobernar en agosto de 1932",
+			"Asume el cargo tras una rebelión contra Guerrero",
+			"Tuvo 3 gobiernos entre 1830 y 1841"
+		]
+	},
+	{
+		"nombre" : "Melchor Múzquiz",
+		"image" : "Melchor Múzquiz.png",
+		"pistas" : [
+			"Inició en agosto de 1832",
+			"Terminó en diciembre de 1832",
+			"Fue presidente interino durante el cargo de Anastasio Bustamante, quien salió a combatir y no podía mantener su puesto",
+			"Trató de renunciar ante el Congreso, pero le pidieron que siguiera gobernando"
+		]
+	},
+	{
+		"nombre" : "Manuel Gómez Pedraza",
+		"image" : "Manuel Gómez Pedraza.png",
+		"pistas" : [
+			"Inicia en diciembre de 1832",
+			"Termina en marzo de 1833",
+			"Santa Anna, Lorenzo Zavala y Jose María Lobato no le permitieron ejercer su puesto como presidente electo hasta 1932",
+			"Se desterró durante dos años en Francia"
+		]
+	},
+	{
+		"nombre" : "Valentín Gómez Farías",
+		"image" : "Valentín Gómez Farías.png",
+		"pistas" : [
+			"Inició su cargo en abril de 1833",
+			"Era vicepresidente, pero tomó el puesto de presidente debido a varias ausencias",
+			"Tuvo 4 mandatos entre 1833 y 1834",
+			"Asumió el cargo varias veces debido a ausencias de Santa Anna"
+		]
+	}, 
+	{
+		"nombre" : "Benito Juarez",
+		"image" : "Benito Juarez.png",
+		"pistas" : [
+			"pista 1",
+			"pista 2",
+			"pista 3"
+		]
+	},
+	{
+		"nombre" : "Félix Zuloaga",
+		"image" : "Felix zuloaga.png",
+		"pistas" : [
+			"pista 1",
+			"pista 2",
+			"pista 3"
+		]
+	},
+	{
+		"nombre" : "Jose Maria Iglesias",
+		"image" : "Jose MAria Iglesias.png",
+		"pistas" : [
+			"pista 1",
+			"pista 2",
+			"pista 3"
+		]
+	},
+	{
+		"nombre" : "Juan N Mendez",
+		"image" : "Juan N Mendez.png",
+		"pistas" : [
+			"pista 1",
+			"pista 2",
+			"pista 3"
+		]
+	},
+	{
+		"nombre" : "Manuel Robles Pezuela",
+		"image" : "Manuel Robles Pezuela.png",
+		"pistas" : [
+			"pista 1",
+			"pista 2",
+			"pista 3"
+		]
+	},
+	{
+		"nombre" : "Maximiliano de Hasburgo",
+		"image" : "Maximiliano de hasburgo.png",
+		"pistas" : [
+			"pista 1",
+			"pista 2",
+			"pista 3"
+		]
+	},
+	{
+		"nombre" : "Sebastian Lerda de Tejada",
+		"image" : "Sebastian Lerda de Tejada.png",
+		"pistas" : [
+			"pista 1",
+			"pista 2",
+			"pista 3"
+		]
+	}
+]
