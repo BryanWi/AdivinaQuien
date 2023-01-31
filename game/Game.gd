@@ -191,7 +191,57 @@ func _ready():
 #			"image" : "AMLO.jpg",
 #			"pistas" : ["Pista 1", "Pista 2", "Pista 3"]
 #			}
+#var doc2: Dictionary = {
+#	"Porfirio Díaz" : {
+#		"nombre" : "Porfirio Díaz",
+#		"image" : "diaz_porfirio_2.jpg",
+#		"pistas" : ["Pista 1", "Pista 2", "Pista 3"]
+#		},
+#	"AMLO" : {
+#		"nombre" : "Andrés Manuel López Obrador",
+#		"image" : "AMLO.jpg",
+#		"pistas" : ["Pista 1", "Pista 2", "Pista 3"]
+#	}
+#}
+
+#var doc: Dictionary = read_json_file("res://game/assets/archivo_info.json")
+
+var arch: Array = read_json_file("res://game/assets/archivo_info.json")
+var doc : Dictionary
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	for i in arch.size():  
+		doc[arch[i].nombre] = arch[i]
+		
+	print(doc)
 	
+#	doc = arch[0]
+#	print("Aqui despues")
+#	print(doc)
+#	print(doc.nombre)
+#	doc = arch[1]
+#	print(doc.nombre)
+#	print(doc.image)
+#	print(doc.pistas[1])
+#	print(arch[0].pistas[0])
+#	for i in range(16):
+#		if i%2 == 0:
+#			doc["PD" + str(i)]={
+#			"nombre" : "Porfirio Díaz",
+#			"image" : "diaz_porfirio_2.jpg",
+#			"pistas" : ["Pista 1", "Pista 2", "Pista 3"]
+#			}
+#		else:
+#
+#			doc["AMLO" + str(i)]={
+#			"nombre" : "Andrés Manuel López Obrador",
+#			"image" : "AMLO.jpg",
+#			"pistas" : ["Pista 1", "Pista 2", "Pista 3"]
+#			}
+#
+#
+#
 	new_game()
 
 
@@ -280,3 +330,12 @@ func play_sound(sonido:String) ->void:
 func _on_win_fx_finished():
 	new_game()
 	$WinScreen.visible = false
+
+func read_json_file(filename):
+	var file = File.new()
+	file.open(filename, File.READ)
+	var text = file.get_as_text()
+	var json_data = parse_json(text)
+	file.close()
+	return json_data
+
