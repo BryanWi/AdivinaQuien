@@ -106,26 +106,25 @@ var doc: Dictionary = {
 			"Tuvo 4 mandatos entre 1833 y 1834",
 			"Asumió el cargo varias veces debido a ausencias de Santa Anna"
 		]
-	},
+	}
 }
-
-
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	$WinScreen.visible = false
 	for i in range(7):
 		if i%2 == 0:
 			doc["PD" + str(i)]={
 			"nombre" : "Porfirio Díaz",
 			"image" : "diaz_porfirio_2.jpg",
-			"pistas" : ["Pista 1", "Pista 2", "Pista 3", "Pista 4"]
+			"pistas" : ["Pista 1", "Pista 2", "Pista 3"]
 			}
 		else:
 			
 			doc["AMLO" + str(i)]={
 			"nombre" : "Andrés Manuel López Obrador",
 			"image" : "AMLO.jpg",
-			"pistas" : ["Pista 1", "Pista 2", "Pista 3", "Pista 4"]
+			"pistas" : ["Pista 1", "Pista 2", "Pista 3"]
 			}
 	
 	new_game()
@@ -190,7 +189,8 @@ func game_lost():
 	new_game()
 
 func game_won():
-	new_game()
+	$WinScreen.visible = true
+	play_sound("Win")
 
 func set_pista():
 	$Label.text += pistas.pop_at(0) + "\n"
@@ -206,6 +206,11 @@ func play_sound(sonido:String) ->void:
 	pass
 	match sonido:
 		"Win":
-			pass
+			$Sonidos/win_fx.play()
 		"error":
 			pass
+
+
+func _on_win_fx_finished():
+	new_game()
+	$WinScreen.visible = false
