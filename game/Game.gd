@@ -14,6 +14,8 @@ var errores:int = 0
 
 var TARJETAS_TABLERO = 14
 
+onready var pistasLabel = $FondoPistas/Pistas
+onready var tablero = $FondoTablero/Tablero
 
 func _ready():
 	for i in arch.size():  
@@ -30,13 +32,13 @@ var doc : Dictionary
 
 func new_game():
 	print("\nNuevo Juego")
-	$Label.text = ""
+	pistasLabel.text = ""
 	errores = 0
 	n_pista = 0
 	pistas = []
 	$Error_Label.text = "Errores "+str(errores)+"/3"
 	
-	for item in $Tablero.get_children():
+	for item in tablero.get_children():
 		item.queue_free()
 	
 	randomize()
@@ -63,7 +65,7 @@ func new_game():
 		var image_path = doc[opciones[i]]["image"]
 		T.set_Data(p_nombre, image_path)
 		T.connect("send_respuesta",self,"check_answer")
-		$Tablero.add_child(T)
+		tablero.add_child(T)
 	set_pista()
 
 
@@ -79,7 +81,7 @@ func check_answer(nombre: String, btn_name: String):
 		if errores == 3:
 			game_lost()
 			return
-		$Tablero.get_node(btn_name).disabled = true
+		tablero.get_node(btn_name).disabled = true
 		set_pista()
 #	print("respuesta: "+respuesta)
 #	print("nombre: "+nombre)
@@ -92,7 +94,7 @@ func game_won():
 	play_sound("Win")
 
 func set_pista():
-	$Label.text += pistas.pop_at(0) + "\n"
+	pistasLabel.text += pistas.pop_at(0) + "\n"
 	n_pista += 1
 	if n_pista >= doc[presi]["pistas"].size():
 		n_pista = 0
