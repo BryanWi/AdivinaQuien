@@ -1,7 +1,7 @@
 [
 	{
 		"nombre" : "Guadalupe Victoria",
-		"image" : "Guadalupe Victoria.jpg",
+		"image" : "Guadalupe Victoria (A).png",
 		"pistas" : [
 			"Inició su gubernatura en 1824",
 			"Terminó de gobernar en 1829",
@@ -11,7 +11,7 @@
 	},
 	{
 		"nombre" : "Vicente Guerrero",
-		"image" : "Vicente Guerrero.png",
+		"image" : "Vicente Guerrero A.png",
 		"pistas" : [
 			"Inició su gubernatura en 1829",
 			"Fue el segundo presidente",
@@ -21,7 +21,7 @@
 	},
 	{
 		"nombre" : "Jose María Bocanegra",
-		"image" : "José María Bocanegra.png",
+		"image" : "José María Bocanegra (A).png",
 		"pistas" : [
 			"Fue el segundo presidente en iniciar su gobierno en 1829",
 			"Su gobierno duró 7 días",
@@ -31,7 +31,7 @@
 	},
 	{
 		"nombre" : "Pedro Vélez",
-		"image" : "Pedro Vélez.png",
+		"image" : "Pedro Vélez (A).png",
 		"pistas" : [
 			"Gobierno de 3 personas iniciado en diciembre de 1829",
 			"Gobernó Junto a Luis Quintanar y Lucas Alamán",
@@ -41,7 +41,7 @@
 	},
 	{
 		"nombre" : "Anastasio Bustamante",
-		"image" : "Anastasio Bustamante.png",
+		"image" : "Anastasio Bustamante (A).png",
 		"pistas" : [
 			"Inició gobierno en 1930",
 			"Terminó de gobernar en agosto de 1932",
@@ -51,7 +51,7 @@
 	},
 	{
 		"nombre" : "Melchor Múzquiz",
-		"image" : "Melchor Múzquiz.png",
+		"image" : "Melchor Múzquiz (A).png",
 		"pistas" : [
 			"Inició en agosto de 1832",
 			"Terminó en diciembre de 1832",
@@ -61,7 +61,7 @@
 	},
 	{
 		"nombre" : "Manuel Gómez Pedraza",
-		"image" : "Manuel Gómez Pedraza.png",
+		"image" : "Manuel Gómez Pedraza (A).png",
 		"pistas" : [
 			"Inicia en diciembre de 1832",
 			"Termina en marzo de 1833",
@@ -71,7 +71,7 @@
 	},
 	{
 		"nombre" : "Valentín Gómez Farías",
-		"image" : "Valentín Gómez Farías.png",
+		"image" : "Valentín Gómez Farías (A).png",
 		"pistas" : [
 			"Inició su cargo en abril de 1833",
 			"Era vicepresidente, pero tomó el puesto de presidente debido a varias ausencias",
@@ -80,66 +80,571 @@
 		]
 	}, 
 	{
-		"nombre" : "Benito Juarez",
-		"image" : "Benito Juarez.png",
+		"nombre" : "Antonio López de Santa Anna",
+		"image" : "Antonio López de Santana (2).png",
 		"pistas" : [
-			"pista 1",
-			"pista 2",
-			"pista 3"
+			"Tuvo 11 cargos de gobierno debido a múltiples ausencias",
+			"Es quién más veces ocupó la presidencia",
+			"Comienza su primer mandato en mayo de 1833",
+			"Vendió parte del norte de Sonora y Chihuahua a Estados Unidos",
+			"Tuvo un mandato dictatorial durante los años 1853 - 1855"
+		]
+	},
+	{
+		"nombre" : "Miuel Barragán",
+		"image" : "Miguel Barragán (A).png",
+		"pistas" : [
+			"Comenzó su mandato en enero de 1835",
+			"Terminó su mandato en febrero de 1836",
+			"Fue un presidente interino para cubrir a Santa Anna",
+			"Renunció a su cargo debido a una enfermedad que le costó la vida 3 días después de renunciar."
+		]
+	},
+	{
+		"nombre" : "José Justo Corro",
+		"image" : "José Justo Corro.png",
+		"pistas" : [
+			"Inició su mandato en febrero de 1836",
+			"Terminó su mandato en abril de 1837",
+			"Presidente interino para sustituir a Barragán tras su muerte",
+			"Durante su periodo Texas declaró su independencia"
+		]
+	},
+	{
+		"nombre" : "Nicolás Bravo",
+		"image" : "Nicolás Bravo.png",
+		"pistas" : [
+			"Presidente interino que cubrió a Santa Anna cuando este cubría a Bustamante",
+			"Inició su mandato en julio de 1839",
+			"Su cargo duró 8 días"
+		]
+	},
+	{
+		"nombre" : "Francisco Javier Echeverría",
+		"image" : "Francisco Javier Echeverría.png",
+		"pistas" : [
+			"Inició su mandato en septiembre de 1841",
+			"Terminó su mandato en octubre de 1841",
+			"Renunció debido a un golpe de estado",
+			"Fue ministro de Hacienda antes de ser presidente interino"
+		]
+	},
+	{
+		"nombre" : "Valentín Canalizo",
+		"image" : "Valentín Canalizo.png",
+		"pistas" : [
+			"Juró la independencia al lado de Iturbide el 2 de marzo de 1821",
+			"Inició su mandato el 4 de octubre de 1843",
+			"Luchó en la guerra Mexicano-Estadounidense de la defensa del golfo"
+		]
+	},
+	{
+		"nombre" : "José Joaquín de Herrera",
+		"image" : "José Joaquín de Herrera.png",
+		"pistas" : [
+			"Inició su gubernatura en el año 1844",
+			"Empleó la indemnización de los Tratados de Guadalupe Hidalgo",
+			"Se hizo presidente cuando Santa Anna fue derrotado"
+		]
+	},
+	{
+		"nombre" : "Mariano Paredes y Arrillaga",
+		"image" : "Mariano Paredes y Arrillaga.png",
+		"pistas" : [
+			"Se le acusó de ser traidor a la patria por combatir a José Joaquín de Herrera, pero resultó ser una calumnia",
+			"En octubre de 1843 dejó de reconocer a Santa Anna como presidente",
+			"Durante su gubernatura, dudó que James K. Polk lanzara una guerra con motivo de la anexión de Texas, por lo que Salas lo depuso de su mando."
+		]
+	},
+	{
+		"nombre" : "José Mariano Salas",
+		"image" : "José Mariano Salas.png",
+		"pistas" : [
+			"Inició su gubernatura el 6 de agosto de 1846.",
+			"Trató de hacer cosas importantes por el país, sin embargo, la crisis económica, pública y política se lo impidieron.",
+			"Asumió el poder durante la época de la guerra de Reforma debido a que no había nadie para tomarlo formalmente."
+		]
+	},
+	{
+		"nombre" : "Pedro María Anaya",
+		"image" : "Pedro María Anaya.png",
+		"pistas" : [
+			"Amigo del Gral. Canalizo, el cual al asumir la presidencia nombró a Anaya Jede del Batallón de Inválidos de México.",
+			"En 1847 rindió su protesta de ley como Presidente de la República llevando en el pecho la bandera de México. Juró defender la patria hasta la muerte. Desde ese entonces los presidentes llevan en su pecho los colores nacionales.",
+			"Fue tomado como prisionero por la invasión norteamericana el 20 de agosto de 1847 debido a la absoluta falta de municiones."
+		]
+	},
+	{
+		"nombre" : "Manuel de la Peña y Peña",
+		"image" : "Manuel de la Peña y Peña.png",
+		"pistas" : [
+			"Su gubernatura inició el 16 de septiembre de 1847.",
+			"Durante su gobierno, firmó los Tratados de Guadalupe Hidalgo un 2 de febrero de 1848 mediante los cuales México cede a Estados Unidos la mitad de su territorio.",
+			"Fue nombrado consejero de Estado durante el gobierno de Iturbide y le concedieron la cruz de la Orden de Guadalupe."
+		]
+	},
+	{
+		"nombre" : "Mariano Arista",
+		"image" : "Mariano Arista.png",
+		"pistas" : [
+			"El congreso lo nombró presidente constitucional en el año 1851 y asumió el cargo el 15 de enero del mismo año.",
+			"Es el recipiente de la primera transmisión de poder de un presidente a su sucesor electo por medio pacífico y sin conflictos.",
+			"Renunció a la presidencia el 6 de enero de 1853 debido a la inestabilidad política y se exilió voluntariamente a Europa."
+		]
+	},
+	{
+		"nombre" : "Juan Bautista Ceballos",
+		"image" : "Juan Bautista Ceballos.png",
+		"pistas" : [
+			"En 1852 fue nombrado como Presidente de la Suprema Corte de Justicia de la Nación por el Presidente Mariano Arista. Donde suprimió la libertad de imprenta.",
+			"Inició su gubernatura el 6 de enero de 1853",
+			"Se negó a firmar el Plan del Hospicio y entregó la presidencia a Manuel María Lombrdini el 20 de abril de 1853"
+		]
+	},
+	{
+		"nombre" : "Manuel María Lombardini",
+		"image" : "Manuel María Lombardini.png",
+		"pistas" : [
+			"Participó en las guerras de Texas en 1836, posteriormente combatió a los franceses en la guerra de los pasteles y después a los estadounidenses en su invasión de 1846.",
+			"Fue elegido presidente en 1849 por el congreso tras la renuncia del presidente Juan Bautista Ceballos.",
+			"Antes de entregar el poder, emitió un decreto donde designó a Santa Anna como capitán general de mar y tierra, con facultades omnímodas."
+		]
+	},
+	{
+		"nombre" : "Martín Carrera",
+		"image" : "Martín carrera.png",
+		"pistas" : [
+			"Empezó su gubernatura en 1855",
+			"Separó los mandos políticos y militares. Además, permitió la libertad de imprenta.",
+			"Ambos conservadores y liberales negaban el diálogo y lo desconocieron como presidente, por lo que renunció a su cargo el 12 de septiembre de 1855"
+		]
+	},
+	{
+	"nombre" : "Rómulo Díaz de la Vega",
+		"image" : "Rómulo díaz.png",
+		"pistas" : [
+			"Fue nombrado presidente el 12 de septiembre de 1855",
+			"Se pronunció a favor del Plan de Ayutla.",
+			"Al triunfo de Juárez, fue sentenciado a dos años de prisión en Puebla."
+		]
+	},
+	{
+		"nombre" : "Juan Álvarez Benítez",
+		"image" : "Juan Álvarez Benítez.png",
+		"pistas" : [
+			"Fue nombrado gobernador constitucional al ganar las primeras elecciones en 1850.",
+			"En 1854 proclamó el Plan de Ayutla, eliminando la dictadura de Santa Anna.",
+			"Fue elegido presidente en 1855 pero no pudo mantener el cargo por problemas de salud por lo que lo abandonó el mismo año."
+		]
+	},
+	{
+		"nombre" : "Ignacio Comonfort",
+		"image" : "Ignacio Comonfort.png",
+		"pistas" : [
+			"Quedó como presidente interino el 11 de diciembre de 1855 tras la renuncia de Juan Álvarez.",
+			"La iglesia amenazó excomunión tras la promulgación de la nueva constitución durante su mandato el 5 de febrero de 1857.",
+			"Al momento de ser elegido como presidente de la República por medio de elecciones, Benito Juárez era el presidente de la Suprema Corte de Justicia."
+		]
+	},
+	{
+		"nombre" : "Benito Juarez",
+		"image" : "Benito Juárez.png",
+		"pistas" : [
+			"Inició su gubernatura en 1858",
+			"Es elegido como presidente después de la caida de Maximiliano de Habsburgo",
+			"Proclamó las Leyes de Reforma",
+			"El respeto al derecho ajeno es la paz"
 		]
 	},
 	{
 		"nombre" : "Félix Zuloaga",
-		"image" : "Felix zuloaga.png",
+		"image" : "Felix m zuluoga 01 Artboard 1.png",
 		"pistas" : [
-			"pista 1",
-			"pista 2",
-			"pista 3"
+			"Fue presidente el 23 de enero de 1858, durando solo 10 días ",
+			"Ejercicio poder mientras ponían en libertad a Benito Juárez",
+			"Emitió el Plan de Navidad",
+			"Participó en batallas contra los apaches y comanches",
+			"Dirigió las obras de fortificación de la ciudad de Monterrey"
+		]
+	},
+	{
+		"nombre" : "Miguel Gregorio de la Luz Atenógenes Miramón y Tarelo",
+		"image" : "M miramon 01 Artboard 1.png",
+		"pistas" : [
+			"Fue nombrado presidente de la República para un primer periodo, del 2 de febrero de 1859, al 12 de agosto de 1860",
+			"Presidente del 15 de Enero de 1858 a 18 Julio de 1872",
+			"Apodo: El joven Macabeo",
+			"Conocido por su frase: Confórmate, amada mía, no hay remedio, el cielo te deja viuda",
+			"Atacó el puerto de Veracruz, donde se refugiaba el gobierno de Benito Juárez",
+			"Comenzó su mandato a los veintisiete años, convirtiéndose en el presidente más joven que ha tenido México."
 		]
 	},
 	{
 		"nombre" : "Jose Maria Iglesias",
-		"image" : "Jose MAria Iglesias.png",
+		"image" : "Jose M iglesias 01 Artboard 1.png",
 		"pistas" : [
-			"pista 1",
-			"pista 2",
-			"pista 3"
+			"Estuvo en el poder del 27 de octubre al 6 de diciembre de 1876.",
+			"Se autoproclamó presidente interino, no reconociendo a Sebastián Lerdo de Tejada vencedor por fraude electoral",
+			"Conocido por su frase: O soy el representante de la legalidad, o no soy ni quiero ser nada",
+			"Durante su estancia al frente del país, redactó el Plan de Salamanca"
 		]
 	},
 	{
-		"nombre" : "Juan N Mendez",
-		"image" : "Juan N Mendez.png",
+		"nombre" : "Juan N. Mendez",
+		"image" : "Juan mendez 01 Artboard 1.png",
 		"pistas" : [
-			"pista 1",
-			"pista 2",
-			"pista 3"
+			"Fue nombrado Ciudadano del Estado de México y Benemérito del Estado de Puebla",
+			"Uno de los integrantes del grupo Los tres Juanes de la sierra Norte",
+			"Fue testigo de asistencia en el Juzgado de Paz (1845), funcionario de vigilancia de la Compañía Lancasteriana de Tetela del Oro (1854)",
+			"Gobernador del Estado de Puebla (1880) y Presidente de la Suprema Corte de Justicia Militar (1884)"
+		]
+	},
+	{
+		"nombre" : "Porfirio Díaz",
+		"image" : "Porfirio Diaz 2.png",
+		"pistas" : [
+			"Conocido por su frase: “En política todos los amigos son falsos, todos los enemigos verdaderos”",
+			"Participación en: Revolución Mexicana, Segunda intervención francesa en México y Guerra de Reforma",
+			"Le apodaron como “El llorón de Icamole”, tras la batalla de Icamole de la que se retiró humillado, en 1876.",
+			"Fue general durante la guerra entre México y Estados Unidos y la intervención francesa en México",
+			"Durante su mandato la economía de México se estabilizó y el país experimentó un desarrollo económico sin precedentes"
+		]
+	},
+	{
+		"nombre" : "Manuel González",
+		"image" : "Manuel gzz 01 Artboard 1.png",
+		"pistas" : [
+			"Durante su mandato logró impulsar la creación del ferrocarril central mexicano",
+			"Autorizó la construcción de la primera red de telégrafos, estableció el uso exclusivo del sistema métrico decimal",
+			"Ocupó los cargos de Gobernador de Guanajuato y Michoacán y Secretario de Guerra y Marina"
+		]
+	},
+	{
+		"nombre" : "Francisco de León de la Barra",
+		"image" : "Francisco Leon d l barra 01 Artboard 1.png",
+		"pistas" : [
+			"Conocido por su frase: “El gobierno no trata con bandidos”",
+			"Desempeñó los cargos de presidente del Tribunal Permanente de Arbitraje",
+			"Comenzó como presidente el 25 de mayo de 1911, cediéndoselo el 6 de noviembre de ese mismo año a Francisco I. Madero",
+			"Considerado como el presidente blanco, por su educación, cultura, espíritu viajero y ser católico"
+		]
+	},
+	{
+		"nombre" : "Francisco I. Madero",
+		"image" : "Francisco I m 01 Artboard 1.png",
+		"pistas" : [
+			"Conocido por su frase: “Sufragio efectivo, no reelección”",
+			"Proclamó el Plan de San Luis, en el que llamaba a levantarse en armas contra el gobierno ",
+			"Elegido por abrumadora mayoría en las primeras elecciones democráticas del país",
+			"Enfrentó la oposición dentro de su propio partido y del poderoso ejército mexicano",
+			"Tomó posesión como Presidente de la República el 6 de noviembre de 1911",
+			"Conocido por su frase: Un buen gobierno solamente puede existir cuando hay buenos ciudadanos"
+		]
+	},
+	{
+		"nombre" : "Pedro Lascuarin Paredes",
+		"image" : "Pedro lazcurain 01 Artboard 1.png",
+		"pistas" : [
+			"Conocido por su frase: He aceptado con toda conciencia este papel. La historia resolverá serenamente sobre mi actitud",
+			"Su primer trabajo fue como secretario de actas del Ayuntamiento de la Ciudad de México",
+			"Como consecuencia de las presiones sufridas por Victoriano Huerta el 19 de febrero de 1913, ocupó la presidencia de México de forma interina",
+			"se le conoció como el presidente fugaz, estuvo en el poder sólamente 45 minutos"
 		]
 	},
 	{
 		"nombre" : "Manuel Robles Pezuela",
-		"image" : "Manuel Robles Pezuela.png",
+		"image" : "Manuel r pezuela 01 Artboard 1.png",
 		"pistas" : [
-			"pista 1",
-			"pista 2",
-			"pista 3"
+			"Nombrado teniente coronel, por su participación en las revueltas y movimientos rebeldes",
+			"Ministro de Guerra y de Marina",
+			"Ministro de Relaciones Exteriores y Embajador de los Estados Unidos",
+			"Presidente interino del 24 de diciembre de 1858 al 21 de enero de 1859",
+			"Arrestado por desobedecer las órdenes de Benito Juárez al buscar alianzas con invasores franceses"
 		]
 	},
 	{
-		"nombre" : "Maximiliano de Hasburgo",
-		"image" : "Maximiliano de hasburgo.png",
+		"nombre" : "Fernando Maximiliano de Hasburgo",
+		"image" : "Maximiliano de hasburgo 01 Artboard 1.png",
 		"pistas" : [
-			"pista 1",
-			"pista 2",
-			"pista 3"
+			"Termina la Guerra de Secesión y la Unión Americana pone un freno a las intenciones francesas.",
+			"Estableció una junta protectora de las clases desprotegidas, atendiendo casos de despojo de tierras a los pueblos indígenas y propietarios particulares.",
+			"Promovió la libertad religiosa",
+			"Impulsó un decreto para abolir las deudas que los peones habían adquirido con los hacendados.",
+			"Conservó algunas de las Leyes de Reforma, como la desamortización de los bienes eclesiásticos."
 		]
 	},
 	{
-		"nombre" : "Sebastian Lerda de Tejada",
-		"image" : "Sebastian Lerda de Tejada.png",
+		"nombre" : "Sebastian Lerdo de Tejada",
+		"image" : "Sebastian L de tejada 01 Artboard 1.png",
 		"pistas" : [
-			"pista 1",
-			"pista 2",
-			"pista 3"
+			"Fue el primer presidente de México en nacer como ciudadano mexicano, ya que vino al mundo después de la declaración de independencia.",
+			"Conocido por su frase: “No soy jefe de un partido sino ejecutor imparcial y desapasionado de la ley”",
+			"Durante su mandato se inauguró el ferrocarril de México a Veracruz y se produjo la escisión del Partido Liberal"
+		]
+	},
+	{
+		"nombre" : "Victoriano Huerta Ortega",
+		"image" : "Victorians Huerta 01 Artboard 1.png",
+		"pistas" : [
+			"Inició su cargo el 19 de febrero de 1913",
+			"Le apodaban El Usurpador. Debido a los asesinatos y su claro encubrimiento.",
+			"Para llegar al poder, organizó un golpe de estado al presidente Francisco I. Madero que fue conocido como la decena trágica."
+		]
+	},
+	{
+		"nombre" : "Francisco S. Carvajal",
+		"image" : "Francisco s carvajal 01 Artboard 1.png",
+		"pistas" : [
+			"Fue presidente interino del 15 de julio al 13 de agosto de 1914",
+			"Asumió su puesto tras la caída de la dictadura de Victoriano Huerta",
+			"Durante su breve periodo de gobierno se firmaron los Tratados de Teoloyucan entre las fuerzas de Victoriano Huerta y el Ejército del Norte",
+			"Negoció con Venustriano Carranza el respeto a la democracia y la legalidad para la transferencia del mando presidencial en paz"
+		]
+	},
+	{
+		"nombre" : "Eulalio Gutiérrez",
+		"image" : "Eulalio Gutierrez 01 Artboard 1.png",
+		"pistas" : [
+			"Combatió a Huerta hasta la victoria del constitucionalista Venustiano Carranza.",
+			"La convención de Aguascalientes lo designó en noviembre de 1914 presidente provisional de la República.",
+			"Se declaró en contra de Pancho Villa, Emiliano Zapata y Carranza.",
+			"Huyó de la capital de la República el 16 de enero de 1915 e intentó trasladar el Gobierno a San Luis Potosí."
+		]
+	},
+	{
+		"nombre" : "Roque González Garza",
+		"image" : "Roque gzz GZA 01 Artboard 1.png",
+		"pistas" : [
+			"Fue miembro del estado mayor de Madero y tomó parte en las batallas de Casas Grandes y Ciudad Juárez.",
+			"Tras el asesinato de Madero a manos de Victoriano Huerta, se sumó a las filas del líder agrarista Pancho Villa y combatió en distintas batallas hasta el derrocamiento de Huerta, alcanzando el grado de general.",
+			"Después de la caída del presidente Eulalio Gutiérrez, ocupó la presidencia de la República del 16 de enero al 11 de junio de 1915."
+		]
+	},
+	{
+		"nombre" : "Francisco Lagos Chazaro",
+		"image" : "Francisco lagos 01 Artboard 1.png",
+		"pistas" : [
+			"Fundó en Chihuahua un periódico al que llamó Nueva Vida.",
+			"Fue secretario particular de Roque González.",
+			"Recibió la presidencia el 10 de junio de 1915.",
+			"Trasladó su gobierno a la ciudad de Toluca, capital del estado de México.",
+			"En enero de 1916 se dirigía al norte para unirse a Francisco Villa, cuando la Convención se disolvió y mejor se dirigió a Manzanillo para embarcarse rumbo a Centroamérica donde estableció su residencia en Costa Rica, Honduras y Nicaragua."
+		]
+	},
+	{
+		"nombre" : "Venustiano Carranza",
+		"image" : "Venustiano carranza 01 Artboard 1.png",
+		"pistas" : [
+			"A consecuencia del asesinato de Francisco I. Madero, proclamó el Plan de Guadalupe el 26 de marzo de 1913.",
+			"En su lucha contra Victoriano Huerta, recibió el apoyo de otros líderes revolucionarios.",
+			"Inició su cargo el 1 de diciembre de 1916.",
+			"Finalizó su cargo el 30 de noviembre de 1920."
+		]
+	},
+	{
+		"nombre" : "Adolfo de la Huerta",
+		"image" : "Adolfo de la huerta 01 Artboard 1.png",
+		"pistas" : [
+			"Firmó el plan de Agua Prieta, manifiesto político concertado contra Carranza y en apoyo de Álvaro Obregón, por el que desconocía a Carranza como presidente.",
+			"Su gobierno en 1920 fue de transición, y hubo de someter algunas rebeliones que surgieron en varios estados.",
+			"Villa le comunicó su decisión de rendirse; después de los tratados de Sabinas, que pusieron fin al levantamiento villista."
+		]
+	},
+	{
+		"nombre" : "Álvaro Obregón",
+		"image" : "Álvaro Obregón 01 Artboard 1.png",
+		"pistas" : [
+			"Fue a quien corresponde gran parte del mérito de haber acabado con la violencia revolucionaria.",
+			"Lo que consolidó su posición fue su victoria política que obtuvo al decretar una ley de salarios mínimos en varios estados norteños.",
+			"Después de la derrota de las tropas carrancistas, en septiembre de 1920 se celebraron las elecciones y obtuvo una rotunda victoria, que le permitió asumir la presidencia para el período de 1920 a 1924. "
+		]
+	},
+	{
+		"nombre" : "Plutarco Elias Calles",
+		"image" : "Plutarco e calles 01 Artboard 1.png",
+		"pistas" : [
+			"Presidente de la República de 1924 a 1928.",
+			"En 1912 abandonó su labor de docente para ingresar en el ejército revolucionario del general Álvaro Obregón como capitán.",
+			"En 1915 Carranza lo nombró gobernador de Sonora.",
+			"En 1919 Carranza lo nombró secretario de Comercio y Trabajo.",
+			"Su presidencia se caracterizó por la consolidación y profundización de la revolución mexicana de 1910: reforma agraria, extensión de la enseñanza, construcción de obras públicas, reorganización del ejército.",
+			"Su periodo es conocido como “Maximato”.",
+			"Se le considera el creador del México moderno.",
+			"La elección para su sucesor se caracterizó por la violencia."
+		]
+	},
+	{
+		"nombre" : "Emilio Portes Gil",
+		"image" : "Emilio portes Gil 01 Artboard 1.png",
+		"pistas" : [
+			"Presidente de México de 1928 al 5 de febrero de 1930.",
+			"Fue el último presidente que ejerció el cargo en calidad de interino.",
+			"Aprovechó que Calles estuviera ocupado en consolidar su poder con miras a la sucesión y repartió cerca de 2 millones de hectáreas que beneficiaron a muchos campesinos.",
+			"Fortaleció las organizaciones campesinas."
+		]
+	},
+	{
+		"nombre" : "Pascual Ortiz Rubio",
+		"image" : "Pascual Ortíz 01 Artboard 1.png",
+		"pistas" : [
+			"Presidente de la República entre 1930 y 1932.",
+			"El presidente Plutarco Elías Calles lo nombró embajador en Alemania y en Brasil. Dejó este puesto para presentarse como candidato a la presidencia de la República.",
+			"Ostentó el mando del país hasta el 4 de septiembre de 1932, cuando se vio obligado a renunciar por la oposición del Congreso, de los gobernadores de los estados y del general Plutarco Elías Calles.",
+			"Durante su gobierno se fundó la Comisión Nacional de Turismo; se promulgó la Ley Federal del Trabajo, y México ingresó a la liga de las Naciones."
+		]
+	},
+	{
+		"nombre" : "Abelardo L. Rodríguez",
+		"image" : "Abelardo l res 01 Artboard 1.png",
+		"pistas" : [
+			"Presidente de 1932 a 1934.",
+			"Resultó electo tras la renuncia de Ortiz Rubio.",
+			"Promulgó la reforma antirreeleccionista a la Constitución.",
+			"Reformó la Ley del Patrimonio Ejidal.",
+			"Creó el Banco Hipotecario y de Obras Públicas.",
+			"Envió al congreso la iniciativa de la Ley Orgánica de la Universidad Nacional Autónoma de México y una ley contra los monopolios.",
+			"Inauguró el Palacio de Bellas Artes."
+		]
+	},
+	{
+		"nombre" : "Lázaro Cárdenas",
+		"image" : "Lázaro Cárdenas 01 Artboard 1.png",
+		"pistas" : [
+			"Presidente de México de 1934 a 1940.",
+			"Su primera acción presidencial fue la de recortar su salario a la mitad y durante su mandato el Castillo de Chapultepec dejó de ser la residencia oficial de los mandatarios mexicanos convirtiéndose en el Museo Nacional de Historia.",
+			"Puso en marcha un plan de reforma económica y social de 6 años.",
+			"El terreno de propiedad privada fue distribuido entre los campesinos.",
+			"Con el apoyo de la Confederación de los Trabajadores de México, muchas industrias se convirtieron en cooperativas.",
+			"Impulsó la creación de una serie de organismos sindicales: CNC y CTM.",
+			"Logró nacionalizar la red ferroviaria.",
+			"Nacionalizó las propiedades de las compañías petroleras extranjeras."
+		]
+	},
+	{
+		"nombre" : "Manuel Ávila Camacho",
+		"image" : "Manuel a Camacho 01 Artboard 1.png",
+		"pistas" : [
+			"Gobernó entre 1940-1946",
+			"Durante su gobierno se fundó el IMSS",
+			"Envió al Escuadrón 201 como apoyo a las fuerzas Aliadas durante la 2.ª Guerra Mundial."
+		]
+	},
+	{
+		"nombre" : "Miguel Alemán Valdés",
+		"image" : "Miguel alemán 01 Artboard 1.png",
+		"pistas" : [
+			"Gobernó entre 1946-1952",
+			"Primer presidente electo donde participaron las mujeres en las votaciones.",
+			"Anunció la separación de Baja California y Baja California Sur"
+		]
+	},
+	{
+		"nombre" : "Adolfo Ruíz Cortines",
+		"image" : "Adolfo Ruiz c 01 Artboard 1.png",
+		"pistas" : [
+			"Gobernó entre 1952-1958",
+			"Expropió latifundios extranjeros en Sonora, Chihuahua y Coahuila",
+			"Impulsó la Campaña Nacional para la Erradicación del Paludismo"
+		]
+	},
+	{
+		"nombre" : "Adolfo López Mateos",
+		"image" : "Adolfo LOPEZ mateos 01 Artboard 1.png",
+		"pistas" : [
+			"Gobernó entre 1958-1964",
+			"Creó el Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado (ISSSTE)",
+			"Estableció la Comisión Nacional de Libros de Texto Gratuitos."
+		]
+	},
+	{
+		"nombre" : "Gustavo Díaz Ordaz",
+		"image" : "Gustavo Díaz Ordáz 01 Artboard 1.png",
+		"pistas" : [
+			"Gobernó entre 1964-1970",
+			"Su gobierno participó en la polémica matanza de Tlatelolco el 2 de octubre de 1968",
+			"Durante su gobierno se organizó en el país la Olimpiada de 1968"
+		]
+	},
+	{
+		"nombre" : "Luis Echeverría Álvarez",
+		"image" : "Luis Echavarría 01 Artboard 1.png",
+		"pistas" : [
+			"Gobernó entre 1970-1976",
+			"Durante su gobierno se fundó el INFONAVIT.",
+			"Una ola de inseguridad durante su gobierno provocó secuestros y asesinatos, entre ellos el empresario neoleonés Don Eugenio Garza Sada."
+		]
+	},
+	{
+		"nombre" : "José López Portillo",
+		"image" : "Jóse lpz Portillo 01 Artboard 1.png",
+		"pistas" : [
+			"Gobernó entre 1976-1982",
+			"Durante su gobierno se autorizó la visita del Papa Juan Pablo II al país.",
+			"El país pasó la peor crisis económica desde la época revolucionaria."
+		]
+	},
+	{
+		"nombre" : "Miguel de la Madrid Hurtado",
+		"image" : "Miguel de la Madrid 01 Artboard 1.png",
+		"pistas" : [
+			"Gobernó entre 1982-1988",
+			"Durante su gobierno ocurrió el terremoto de 1985 en la Ciudad de México, no permitió al Ejército participar en acciones de rescate en las primeras horas del suceso.",
+			"La moneda mexicana perdió gran parte de su valor con respecto al dólar americano."
+		]
+	},
+	{
+		"nombre" : "Carlos Salinas de Gortari",
+		"image" : "Gortari.png",
+		"pistas" : [
+			"Gobernó entre 1988-1994",
+			"Su gobierno acordó el Tratado de Libre Comercio de América del Norte, junto a Canadá y Estados Unidos.",
+			"El gobierno vendió Teléfonos de México (TELMEX) pasando a ser de carácter privado."
+		]
+	},
+	{
+		"nombre" : "Ernesto Zedillo Ponce de León",
+		"image" : "Ernesto Zedillo.png",
+		"pistas" : [
+			"Gobernó entre 1994-2000",
+			"Tras tomar el cargo, el país vivió una enorme crisis financiera a consecuencia de la administración anterior.",
+			"Loz Zapatistas, grupo armado ubicado en Chiapas, comienza a desequilibrar la paz nacional."
+		]
+	},
+	{
+		"nombre" : "Vicente Fox Quezada",
+		"image" : "Vicente Fox Quesada.png",
+		"pistas" : [
+			"Gobernó entre 2000-2006",
+			"Primer presidente de México de un partido distinto al PRI.",
+			"Sus intentos por crear una reforma migratoria con Estados Unidos fueron frenados por los ataques del 11 de septiembre en aquel país."
+		]
+	},
+	{
+		"nombre" : "Felipe Calderón Hinojosa",
+		"image" : "Felipe Calderón.png",
+		"pistas" : [
+			"Gobernó entre 2006-2012",
+			"Durante su gobierno se vivió la Guerra contra el Narco.",
+			"Su gobierno suprimió las Secretarías de Turismo, Reforma agraria y de la Función Pública."
+		]
+	},
+	{
+		"nombre" : "Enrique Peña Nieto",
+		"image" : "Peña Nieto.png",
+		"pistas" : [
+			"Gobernó entre 2012-2018",
+			"Su gobierno estuvo envuelto en la desaparición de 43 estudiantes en Ayotzinapa.",
+			"Durante su gobierno, Joaquín “El Chapo” Guzmán escapa de prisión a través de un túnel."
+		]
+	},
+	{
+		"nombre" : "Andrés Manuel López Obrador",
+		"image" : "AMLO.png",
+		"pistas" : [
+			"Gobierna entre 2018-2024",
+			"Primer presidente abiertamente de izquierda",
+			"Se remueve el fuero presidencial",
+			"Su gobierno presenció la pandemia COVID-19"
 		]
 	}
 ]

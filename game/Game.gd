@@ -18,7 +18,7 @@ var doc : Dictionary
 func _ready():
 	for i in arch.size():  
 		doc[arch[i].nombre] = arch[i]
-		
+	print(arch.size())
 	$WinScreen.visible = false
 	
 	new_game()
@@ -93,7 +93,10 @@ func game_won():
 	play_sound("Win")
 
 func set_pista():
-	pistasLabel.text += pistas.pop_at(0) + "\n"
+	if pistasLabel.text != "":
+		pistasLabel.text +="\n\n"
+	pistasLabel.text += pistas.pop_at(0)
+	
 
 func _on_NuevoJuego_button_down():
 	new_game()
