@@ -1,8 +1,10 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=7 format=2]
 
-[ext_resource path="res://sonidos/Sonido Victoria.wav" type="AudioStream" id=1]
+[ext_resource path="res://assets/sonidos/Sonido Victoria.wav" type="AudioStream" id=1]
 [ext_resource path="res://game/Game.gd" type="Script" id=2]
-[ext_resource path="res://sonidos/Sonido Error.wav" type="AudioStream" id=3]
+[ext_resource path="res://assets/sonidos/Sonido Error.wav" type="AudioStream" id=3]
+[ext_resource path="res://assets/texturas/image2.png" type="Texture" id=4]
+[ext_resource path="res://assets/sonidos/Nivel 1.mp3" type="AudioStream" id=5]
 
 [sub_resource type="Theme" id=1]
 
@@ -14,7 +16,13 @@ script = ExtResource( 2 )
 [node name="ColorRect" type="ColorRect" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
-color = Color( 0.529412, 0.486275, 0.32549, 1 )
+color = Color( 0.643137, 0.545098, 0.337255, 1 )
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 4 )
+stretch_mode = 2
 
 [node name="FondoTablero" type="ColorRect" parent="."]
 anchor_left = 0.5
@@ -58,17 +66,29 @@ margin_left = -296.0
 margin_top = 20.0
 margin_right = 297.0
 margin_bottom = 147.0
-color = Color( 0.454902, 0.415686, 0.27451, 1 )
+color = Color( 0.286275, 0.258824, 0.160784, 1 )
+
+[node name="FondoTablero" type="ColorRect" parent="FondoPistas"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -288.5
+margin_top = -55.5
+margin_right = 288.5
+margin_bottom = 55.5
+theme = SubResource( 1 )
+color = Color( 0.67451, 0.639216, 0.498039, 1 )
 
 [node name="Pistas" type="RichTextLabel" parent="FondoPistas"]
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -286.5
-margin_top = -54.5
-margin_right = 286.5
-margin_bottom = 54.5
+margin_left = -281.5
+margin_top = -48.5
+margin_right = 281.5
+margin_bottom = 48.5
 
 [node name="Sonidos" type="Control" parent="."]
 margin_right = 40.0
@@ -81,6 +101,12 @@ mix_target = 1
 [node name="error_fx" type="AudioStreamPlayer" parent="Sonidos"]
 stream = ExtResource( 3 )
 volume_db = -8.667
+mix_target = 1
+
+[node name="error_fx2" type="AudioStreamPlayer" parent="Sonidos"]
+stream = ExtResource( 5 )
+volume_db = -11.133
+autoplay = true
 mix_target = 1
 
 [node name="Error_Label" type="Label" parent="."]
