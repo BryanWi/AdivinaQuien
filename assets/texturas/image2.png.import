@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/diaz_porfirio_2.jpg-9792b0a4b35861f82fd0d4e47d969b74.stex"
+path="res://.import/image2.png-0f428ca230ef489f7a0d99bedb751ffe.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://imagenes/diaz_porfirio_2.jpg"
-dest_files=[ "res://.import/diaz_porfirio_2.jpg-9792b0a4b35861f82fd0d4e47d969b74.stex" ]
+source_file="res://assets/texturas/image2.png"
+dest_files=[ "res://.import/image2.png-0f428ca230ef489f7a0d99bedb751ffe.stex" ]
 
 [params]
 

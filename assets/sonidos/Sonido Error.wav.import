@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/Sonido Victoria.wav-2711c67ed42df61f31b6924d7278aca3.sample"
+path="res://.import/Sonido Error.wav-9cece32a0443bee836086202d57320d0.sample"
 
 [deps]
 
-source_file="res://sonidos/Sonido Victoria.wav"
-dest_files=[ "res://.import/Sonido Victoria.wav-2711c67ed42df61f31b6924d7278aca3.sample" ]
+source_file="res://assets/sonidos/Sonido Error.wav"
+dest_files=[ "res://.import/Sonido Error.wav-9cece32a0443bee836086202d57320d0.sample" ]
 
 [params]
 
