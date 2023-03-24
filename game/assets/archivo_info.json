@@ -7,7 +7,12 @@
 			"Terminó de gobernar en 1829",
 			"Fue el primer presidente",
 			"Fue resultado de las primeras elecciones federales"
-		]
+		],
+		"sonido" : [
+		"GV1.ogg",
+		"GV2.ogg",
+		"GV3.ogg",
+		"GV4.ogg"]
 	},
 	{
 		"nombre" : "Vicente Guerrero",
@@ -17,7 +22,12 @@
 			"Fue el segundo presidente",
 			"Terminó de gobernar en el año en que empezó",
 			"Su gobierno duró 8 meses"
-		]
+		],
+		"sonido" : [
+		"VG1.ogg",
+		"VG2.ogg",
+		"VG3.ogg",
+		"VG4.ogg"]
 	},
 	{
 		"nombre" : "Jose María Bocanegra",
@@ -27,7 +37,12 @@
 			"Su gobierno duró 7 días",
 			"Fue el tercer presidente",
 			"Cedió su presidencia tras un ataque de insurgentes que rodearon el Palacio Nacional"
-		]
+		],
+		"sonido" : [
+		"JMB1.ogg",
+		"JMB2.ogg",
+		"JMB3.ogg",
+		"JMB4.ogg"]
 	},
 	{
 		"nombre" : "Pedro Vélez",
