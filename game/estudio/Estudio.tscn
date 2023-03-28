@@ -40,9 +40,9 @@ color = Color( 0.937255, 0.901961, 0.768627, 1 )
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_left = 5.0
-margin_top = 14.0
+margin_top = 10.0
 margin_right = -5.0
-margin_bottom = -14.0
+margin_bottom = -10.0
 
 [node name="Tablero" type="GridContainer" parent="FondoTablero/ScrollContainer"]
 grow_horizontal = 2
@@ -89,6 +89,7 @@ margin_left = -310.5
 margin_top = -77.0
 margin_right = 310.5
 margin_bottom = 77.0
+text = "Selecciona un presidente para ver su información"
 
 [node name="Sonidos" type="Control" parent="."]
 margin_right = 40.0
@@ -108,15 +109,6 @@ stream = ExtResource( 4 )
 volume_db = -11.133
 autoplay = true
 mix_target = 1
-
-[node name="Error_Label" type="Label" parent="."]
-margin_left = 21.0
-margin_top = 20.0
-margin_right = 182.0
-margin_bottom = 144.0
-text = "Errores #/#"
-align = 1
-valign = 1
 
 [node name="WinScreen" type="ColorRect" parent="."]
 visible = false

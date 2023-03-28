@@ -25,11 +25,9 @@ func _ready():
 
 
 func new_game():
-	print("\nNuevo Juego")
-	pistasLabel.text = ""
+	print("\nModo Estudio")
 	errores = 0
 	pistas = []
-	$Error_Label.text = "Errores "+str(errores)+"/3"
 	
 	#vacíamos el tablero actual
 	for item in tablero.get_children():
