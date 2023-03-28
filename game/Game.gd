@@ -120,3 +120,7 @@ func read_json_file(filename):
 	var json_data = parse_json(text)
 	file.close()
 	return json_data
+
+
+func _on_Regresar_button_down():
+	Global.change_scene("main_menu")

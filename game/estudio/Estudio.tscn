@@ -1,17 +1,17 @@
 [gd_scene load_steps=7 format=2]
 
-[ext_resource path="res://assets/sonidos/Sonido Victoria.wav" type="AudioStream" id=1]
-[ext_resource path="res://game/Game.gd" type="Script" id=2]
-[ext_resource path="res://assets/sonidos/Sonido Error.wav" type="AudioStream" id=3]
-[ext_resource path="res://assets/texturas/image2.png" type="Texture" id=4]
-[ext_resource path="res://assets/sonidos/Nivel 1.mp3" type="AudioStream" id=5]
+[ext_resource path="res://assets/sonidos/Sonido Error.wav" type="AudioStream" id=1]
+[ext_resource path="res://assets/sonidos/Sonido Victoria.wav" type="AudioStream" id=2]
+[ext_resource path="res://assets/texturas/image2.png" type="Texture" id=3]
+[ext_resource path="res://assets/sonidos/Nivel 1.mp3" type="AudioStream" id=4]
+[ext_resource path="res://game/estudio/Estudio.gd" type="Script" id=5]
 
 [sub_resource type="Theme" id=1]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-script = ExtResource( 2 )
+script = ExtResource( 5 )
 
 [node name="ColorRect" type="ColorRect" parent="."]
 anchor_right = 1.0
@@ -21,7 +21,7 @@ color = Color( 0.643137, 0.545098, 0.337255, 1 )
 [node name="TextureRect" type="TextureRect" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
-texture = ExtResource( 4 )
+texture = ExtResource( 3 )
 stretch_mode = 2
 
 [node name="FondoTablero" type="ColorRect" parent="."]
@@ -29,54 +29,43 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -495.0
-margin_top = -123.0
-margin_right = 495.0
+margin_left = -503.0
+margin_top = -65.0
+margin_right = 503.0
 margin_bottom = 285.0
 theme = SubResource( 1 )
 color = Color( 0.937255, 0.901961, 0.768627, 1 )
 
-[node name="Tablero" type="GridContainer" parent="FondoTablero"]
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-margin_left = -480.0
-margin_top = -191.0
-margin_right = 480.0
-margin_bottom = 191.0
+[node name="ScrollContainer" type="ScrollContainer" parent="FondoTablero"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 5.0
+margin_top = 14.0
+margin_right = -5.0
+margin_bottom = -14.0
+
+[node name="Tablero" type="GridContainer" parent="FondoTablero/ScrollContainer"]
 grow_horizontal = 2
 custom_constants/vseparation = 5
 custom_constants/hseparation = 5
 columns = 7
 
-[node name="NuevoJuego" type="Button" parent="."]
-anchor_left = 1.0
-anchor_right = 1.0
-margin_left = -183.0
-margin_top = 31.0
-margin_right = -21.0
-margin_bottom = 79.0
-rect_pivot_offset = Vector2( 162, 48 )
-text = "Nuevo Juego"
-
 [node name="Regresar" type="Button" parent="."]
 anchor_left = 1.0
 anchor_right = 1.0
-margin_left = -183.0
-margin_top = 93.0
-margin_right = -21.0
-margin_bottom = 141.0
-rect_pivot_offset = Vector2( 162, 48 )
+margin_left = -145.0
+margin_top = 87.0
+margin_right = -18.0
+margin_bottom = 153.0
 text = "Regresar"
 
 [node name="FondoPistas" type="ColorRect" parent="."]
 anchor_left = 0.5
 anchor_right = 0.5
-margin_left = -296.0
-margin_top = 20.0
-margin_right = 297.0
-margin_bottom = 147.0
+margin_left = -336.0
+margin_top = 17.0
+margin_right = 337.0
+margin_bottom = 225.0
 color = Color( 0.286275, 0.258824, 0.160784, 1 )
 
 [node name="FondoTablero" type="ColorRect" parent="FondoPistas"]
@@ -84,10 +73,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -288.5
-margin_top = -55.5
-margin_right = 288.5
-margin_bottom = 55.5
+margin_left = -323.5
+margin_top = -91.0
+margin_right = 323.5
+margin_bottom = 91.0
 theme = SubResource( 1 )
 color = Color( 0.67451, 0.639216, 0.498039, 1 )
 
@@ -96,26 +85,26 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -281.5
-margin_top = -48.5
-margin_right = 281.5
-margin_bottom = 48.5
+margin_left = -310.5
+margin_top = -77.0
+margin_right = 310.5
+margin_bottom = 77.0
 
 [node name="Sonidos" type="Control" parent="."]
 margin_right = 40.0
 margin_bottom = 40.0
 
 [node name="win_fx" type="AudioStreamPlayer" parent="Sonidos"]
-stream = ExtResource( 1 )
+stream = ExtResource( 2 )
 mix_target = 1
 
 [node name="error_fx" type="AudioStreamPlayer" parent="Sonidos"]
-stream = ExtResource( 3 )
+stream = ExtResource( 1 )
 volume_db = -8.667
 mix_target = 1
 
 [node name="error_fx2" type="AudioStreamPlayer" parent="Sonidos"]
-stream = ExtResource( 5 )
+stream = ExtResource( 4 )
 volume_db = -11.133
 autoplay = true
 mix_target = 1
@@ -150,6 +139,5 @@ text = "Felicidades, has ganado!"
 align = 1
 valign = 1
 
-[connection signal="button_down" from="NuevoJuego" to="." method="_on_NuevoJuego_button_down"]
 [connection signal="button_down" from="Regresar" to="." method="_on_Regresar_button_down"]
 [connection signal="finished" from="Sonidos/win_fx" to="." method="_on_win_fx_finished"]
