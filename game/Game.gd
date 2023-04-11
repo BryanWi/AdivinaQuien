@@ -80,7 +80,7 @@ func check_answer(nombre: String, btn_name: String):
 		if errores == 3:
 			game_lost()
 			return
-		tablero.get_node(btn_name).disabled = true
+		tablero.get_node(btn_name).disable()
 		set_pista()
 #	print("respuesta: "+respuesta)
 #	print("nombre: "+nombre)

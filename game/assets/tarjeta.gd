@@ -10,7 +10,9 @@ func set_Data(nombre: String, image_path: String):
 	name = nombre
 	$ColorRect/Label.text = nombre
 	$ColorRect.visible = false
-	self.texture_normal = load("res://imagenes/" + image_path)
+	var ImagenPresidente:StreamTexture =  load("res://imagenes/" + image_path)
+	self.texture_normal = ImagenPresidente
+	self.texture_disabled = ImagenPresidente
 
 
 func _on_tarjeta_button_down():
@@ -18,8 +20,19 @@ func _on_tarjeta_button_down():
 
 
 func _on_tarjeta_mouse_entered():
-	$ColorRect.visible = true
+	if self.disabled == false:
+		$ColorRect.visible = true
+	
+	$ColorRect/Label.visible = true
 
 
 func _on_tarjeta_mouse_exited():
-	$ColorRect.visible = false
+	if self.disabled == false:
+		$ColorRect.visible = false
+	$ColorRect/Label.visible = false
+
+func disable():
+	self.disabled = true
+	$ColorRect.color = Color(0.196078,0.196078,0.196078,0.788235)
+	$ColorRect.visible = true
+	

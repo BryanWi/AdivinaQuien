@@ -1,12 +1,17 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://assets/sonidos/Sonido Victoria.wav" type="AudioStream" id=1]
 [ext_resource path="res://game/Game.gd" type="Script" id=2]
 [ext_resource path="res://assets/sonidos/Sonido Error.wav" type="AudioStream" id=3]
 [ext_resource path="res://assets/texturas/image2.png" type="Texture" id=4]
 [ext_resource path="res://assets/sonidos/Nivel 1.mp3" type="AudioStream" id=5]
+[ext_resource path="res://assets/font/RobotoSlab-VariableFont_wght.ttf" type="DynamicFontData" id=6]
 
 [sub_resource type="Theme" id=1]
+
+[sub_resource type="DynamicFont" id=2]
+size = 18
+font_data = ExtResource( 6 )
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
@@ -100,6 +105,11 @@ margin_left = -281.5
 margin_top = -48.5
 margin_right = 281.5
 margin_bottom = 48.5
+custom_fonts/mono_font = SubResource( 2 )
+custom_fonts/bold_italics_font = SubResource( 2 )
+custom_fonts/italics_font = SubResource( 2 )
+custom_fonts/bold_font = SubResource( 2 )
+custom_fonts/normal_font = SubResource( 2 )
 
 [node name="Sonidos" type="Control" parent="."]
 margin_right = 40.0
