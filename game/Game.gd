@@ -45,9 +45,9 @@ func new_game():
 	var keys = doc.keys() #Tomamos las llaves del diccionario con los presidentes
 	var rand_index = fmod(randi() , keys.size()) #índice aleatorio para seleccionar el presidente de la lista de llaves
 	
-	#presi = keys.pop_at(rand_index) # Se selecciona al prsidente
-	var b = ["Pedro Vélez", "Anastasio Bustamante", "Melchor Múzquiz","Guadalupe Victoria"]
-	presi = b[3]
+	presi = keys.pop_at(rand_index) # Se selecciona al prsidente
+#	var b = ["Pedro Vélez", "Anastasio Bustamante", "Melchor Múzquiz","Guadalupe Victoria"]
+#	presi = b[3]
 	
 	var opciones = [presi] # Se agrega el presidente elegido a las opciones que habrá en esta partida
 	pistas = [] + doc[presi]["pistas"] # Se guardan las pistas del presidente elegido
@@ -127,7 +127,7 @@ func play_sound(sonido: String) ->void:
 
 
 func _on_win_fx_finished():
-	new_game()
+	#new_game()
 	$WinScreen.visible = false
 
 func read_json_file(filename):

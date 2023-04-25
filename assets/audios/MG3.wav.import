@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/MG3.wav-ec2d0b7c69fa68d29aa572487756f0e7.sample"
+
+[deps]
+
+source_file="res://assets/audios/MG3.wav"
+dest_files=[ "res://.import/MG3.wav-ec2d0b7c69fa68d29aa572487756f0e7.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

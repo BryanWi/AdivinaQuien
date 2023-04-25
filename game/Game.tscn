@@ -127,7 +127,7 @@ mix_target = 1
 
 [node name="musica_fx" type="AudioStreamPlayer" parent="Sonidos"]
 stream = ExtResource( 5 )
-volume_db = -15.157
+volume_db = -19.84
 autoplay = true
 mix_target = 1
 

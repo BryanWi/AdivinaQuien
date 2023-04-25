@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/FZ2.wav-bce3d046a8f5ec9657660ae1b6ab6d5d.sample"
+
+[deps]
+
+source_file="res://assets/audios/FZ2.wav"
+dest_files=[ "res://.import/FZ2.wav-bce3d046a8f5ec9657660ae1b6ab6d5d.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
