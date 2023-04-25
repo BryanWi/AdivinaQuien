@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/NB1.wav-64b6e9ae07f20aa0bad3b0a7e58c13fe.sample"
+
+[deps]
+
+source_file="res://assets/audios/NB1.wav"
+dest_files=[ "res://.import/NB1.wav-64b6e9ae07f20aa0bad3b0a7e58c13fe.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

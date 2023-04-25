@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/ALSA1.wav-3b857b9a5cd633a2c4a2616c757d56ec.sample"
+
+[deps]
+
+source_file="res://assets/audios/ALSA1.wav"
+dest_files=[ "res://.import/ALSA1.wav-3b857b9a5cd633a2c4a2616c757d56ec.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

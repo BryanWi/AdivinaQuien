@@ -9,10 +9,10 @@
 			"Fue resultado de las primeras elecciones federales"
 		],
 		"sonido" : [
-		"GV1.ogg",
-		"GV2.ogg",
-		"GV3.ogg",
-		"GV4.ogg"]
+		"GV1.wav",
+		"GV2.wav",
+		"GV3.wav",
+		"GV4.wav"]
 	},
 	{
 		"nombre" : "Vicente Guerrero",
@@ -24,10 +24,10 @@
 			"Su gobierno duró 8 meses"
 		],
 		"sonido" : [
-		"VG1.ogg",
-		"VG2.ogg",
-		"VG3.ogg",
-		"VG4.ogg"]
+		"VG1.wav",
+		"VG2.wav",
+		"VG3.wav",
+		"VG4.wav"]
 	},
 	{
 		"nombre" : "Jose María Bocanegra",
@@ -39,10 +39,10 @@
 			"Cedió su presidencia tras un ataque de insurgentes que rodearon el Palacio Nacional"
 		],
 		"sonido" : [
-		"JMB1.ogg",
-		"JMB2.ogg",
-		"JMB3.ogg",
-		"JMB4.ogg"]
+		"JMB1.wav",
+		"JMB2.wav",
+		"JMB3.wav",
+		"JMB4.wav"]
 	},
 	{
 		"nombre" : "Pedro Vélez",
@@ -54,10 +54,10 @@
 			"Duró por 8 días"
 		],
 		"sonido" : [
-		"PV1.ogg",
-		"PV2.ogg",
-		"PV3.ogg",
-		"PV4.ogg"]
+		"PV1.wav",
+		"PV2.wav",
+		"PV3.wav",
+		"PV4.wav"]
 	},
 	{
 		"nombre" : "Anastasio Bustamante",
@@ -69,10 +69,10 @@
 			"Tuvo 3 gobiernos entre 1830 y 1841"
 		],
 		"sonido" : [
-		"AB1.ogg",
-		"AB2.ogg",
-		"AB3.ogg",
-		"AB4.ogg"]
+		"AB1.wav",
+		"AB2.wav",
+		"AB3.wav",
+		"AB4.wav"]
 	},
 	{
 		"nombre" : "Melchor Múzquiz",
@@ -84,10 +84,10 @@
 			"Trató de renunciar ante el Congreso, pero le pidieron que siguiera gobernando"
 		],
 		"sonido" : [
-		"MM1.ogg",
-		"MM2.ogg",
-		"MM3.ogg",
-		"MM4.ogg"]
+		"MM1.wav",
+		"MM2.wav",
+		"MM3.wav",
+		"MM4.wav"]
 	},
 	{
 		"nombre" : "Manuel Gómez Pedraza",
@@ -99,10 +99,10 @@
 			"Se desterró durante dos años en Francia"
 		],
 		"sonido" : [
-		"MGP1.ogg",
-		"MGP2.ogg",
-		"MGP3.ogg",
-		"MGP4.ogg"]
+		"MGP1.wav",
+		"MGP2.wav",
+		"MGP3.wav",
+		"MGP4.wav"]
 	},
 	{
 		"nombre" : "Valentín Gómez Farías",
@@ -114,10 +114,10 @@
 			"Asumió el cargo varias veces debido a ausencias de Santa Anna"
 		],
 		"sonido" : [
-		"VGF1.ogg",
-		"VGF2.ogg",
-		"VGF3.ogg",
-		"VGF4.ogg"]
+		"VGF1.wav",
+		"VGF2.wav",
+		"VGF3.wav",
+		"VGF4.wav"]
 	}, 
 	{
 		"nombre" : "Antonio López de Santa Anna",
@@ -130,11 +130,11 @@
 			"Tuvo un mandato dictatorial durante los años 1853 - 1855"
 		],
 		"sonido" : [
-		"ALSA1.ogg",
-		"ALSA2.ogg",
-		"ALSA3.ogg",
-		"ALSA4.ogg",
-		"ALSA5.ogg"]
+		"ALSA1.wav",
+		"ALSA2.wav",
+		"ALSA3.wav",
+		"ALSA4.wav",
+		"ALSA5.wav"]
 	},
 	{
 		"nombre" : "Miuel Barragán",
@@ -146,10 +146,10 @@
 			"Renunció a su cargo debido a una enfermedad que le costó la vida 3 días después de renunciar."
 		],
 		"sonido" : [
-		"MB1.ogg",
-		"MB2.ogg",
-		"MB3.ogg",
-		"MB4.ogg"]
+		"MB1.wav",
+		"MB2.wav",
+		"MB3.wav",
+		"MB4.wav"]
 	},
 	{
 		"nombre" : "José Justo Corro",
@@ -161,10 +161,10 @@
 			"Durante su periodo Texas declaró su independencia"
 		],
 		"sonido" : [
-		"JJC1.ogg",
-		"JJC2.ogg",
-		"JJC3.ogg",
-		"JJC4.ogg"]
+		"JJC1.wav",
+		"JJC2.wav",
+		"JJC3.wav",
+		"JJC4.wav"]
 	},
 	{
 		"nombre" : "Nicolás Bravo",
@@ -175,10 +175,9 @@
 			"Su cargo duró 8 días"
 		],
 		"sonido" : [
-		"NB1.ogg",
-		"NB2.ogg",
-		"NB3.ogg",
-		"NB4.ogg"]
+		"NB1.wav",
+		"NB2.wav",
+		"NB3.wav"]
 	},
 	{
 		"nombre" : "Francisco Javier Echeverría",
@@ -190,10 +189,10 @@
 			"Fue ministro de Hacienda antes de ser presidente interino"
 		],
 		"sonido" : [
-		"FJE1.ogg",
-		"FJE2.ogg",
-		"FJE3.ogg",
-		"FJE4.ogg"]
+		"FJE1.wav",
+		"FJE2.wav",
+		"FJE3.wav",
+		"FJE4.wav"]
 	},
 	{
 		"nombre" : "Valentín Canalizo",
@@ -204,9 +203,9 @@
 			"Luchó en la guerra Mexicano-Estadounidense de la defensa del golfo"
 		],
 		"sonido" : [
-		"VC1.ogg",
-		"VC2.ogg",
-		"VC3.ogg"]
+		"VC1.wav",
+		"VC2.wav",
+		"VC3.wav"]
 	},
 	{
 		"nombre" : "José Joaquín de Herrera",
@@ -217,9 +216,9 @@
 			"Se hizo presidente cuando Santa Anna fue derrotado"
 		],
 		"sonido" : [
-		"JJH1.ogg",
-		"JJH2.ogg",
-		"JJH3.ogg"]
+		"JJH1.wav",
+		"JJH2.wav",
+		"JJH3.wav"]
 	},
 	{
 		"nombre" : "Mariano Paredes y Arrillaga",

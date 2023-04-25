@@ -130,6 +130,8 @@ volume_db = -11.133
 autoplay = true
 mix_target = 1
 
+[node name="pista_fx" type="AudioStreamPlayer" parent="Sonidos"]
+
 [node name="Error_Label" type="Label" parent="."]
 margin_left = 21.0
 margin_top = 20.0

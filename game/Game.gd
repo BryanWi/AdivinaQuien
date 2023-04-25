@@ -11,6 +11,8 @@ const TARJETAS_TABLERO = 14
 
 onready var pistasLabel = $FondoPistas/Pistas
 onready var tablero = $FondoTablero/Tablero
+onready var pista_fx = $Sonidos/pista_fx
+
 
 var arch: Array = read_json_file("res://game/assets/archivo_info.json")
 var doc : Dictionary
