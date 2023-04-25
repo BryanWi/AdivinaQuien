@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/FLC5.wav-5033240762997aaa7b14f493644ad607.sample"
+
+[deps]
+
+source_file="res://assets/audios/FLC5.wav"
+dest_files=[ "res://.import/FLC5.wav-5033240762997aaa7b14f493644ad607.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/AO1.wav-7a8ffebe610db0032e1bd59d91daa9bc.sample"
+
+[deps]
+
+source_file="res://assets/audios/AO1.wav"
+dest_files=[ "res://.import/AO1.wav-7a8ffebe610db0032e1bd59d91daa9bc.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

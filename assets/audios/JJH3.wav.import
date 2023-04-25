@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/JJH3.wav-6b7a0a19f8afd68485dabcc94198b209.sample"
+
+[deps]
+
+source_file="res://assets/audios/JJH3.wav"
+dest_files=[ "res://.import/JJH3.wav-6b7a0a19f8afd68485dabcc94198b209.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

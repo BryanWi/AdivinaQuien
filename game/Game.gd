@@ -5,12 +5,16 @@ onready var tarjeta = preload("res://game/assets/tarjeta.tscn")
 var respuesta:String
 var presi:String
 var pistas: Array
+var n_pista: Array = [0,1,2,3]
+var pistas_sound: Array
 var errores:int = 0
 
 const TARJETAS_TABLERO = 14
 
-onready var pistasLabel = $FondoPistas/Pistas
+onready var pistasLabel:RichTextLabel = $FondoPistas/Pistas
 onready var tablero = $FondoTablero/Tablero
+onready var pista_fx = $Sonidos/pista_fx
+
 
 var arch: Array = read_json_file("res://game/assets/archivo_info.json")
 var doc : Dictionary
@@ -20,6 +24,8 @@ func _ready():
 		doc[arch[i].nombre] = arch[i]
 	print(arch.size())
 	$WinScreen.visible = false
+	
+	pistasLabel.set_scroll_follow(true)
 	
 	new_game()
 
@@ -40,9 +46,18 @@ func new_game():
 	var rand_index = fmod(randi() , keys.size()) #índice aleatorio para seleccionar el presidente de la lista de llaves
 	
 	presi = keys.pop_at(rand_index) # Se selecciona al prsidente
+#	var b = ["Pedro Vélez", "Anastasio Bustamante", "Melchor Múzquiz","Guadalupe Victoria"]
+#	presi = b[3]
+	
 	var opciones = [presi] # Se agrega el presidente elegido a las opciones que habrá en esta partida
 	pistas = [] + doc[presi]["pistas"] # Se guardan las pistas del presidente elegido
-	pistas.shuffle() # Se aleatoriza el orden de las pistas
+	n_pista = range(pistas.size())
+	
+	if doc[presi].has("sonido"):
+		pistas_sound = [] + doc[presi]["sonido"]
+	
+	
+	n_pista.shuffle() # Se aleatoriza el orden de las pistas
 	
 	respuesta = doc[presi]["nombre"] # Se guarda la respuest actual
 	print(respuesta)
@@ -95,7 +110,9 @@ func game_won():
 func set_pista():
 	if pistasLabel.text != "":
 		pistasLabel.text +="\n\n"
-	pistasLabel.text += pistas.pop_at(0)
+	pistasLabel.text += pistas[n_pista[0]]
+	pista_fx.stream = load("res://assets/audios/" + pistas_sound[n_pista.pop_at(0)])
+	pista_fx.play()
 	
 
 func _on_NuevoJuego_button_down():
@@ -110,7 +127,7 @@ func play_sound(sonido: String) ->void:
 
 
 func _on_win_fx_finished():
-	new_game()
+	#new_game()
 	$WinScreen.visible = false
 
 func read_json_file(filename):

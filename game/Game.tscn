@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://assets/sonidos/Sonido Victoria.wav" type="AudioStream" id=1]
 [ext_resource path="res://game/Game.gd" type="Script" id=2]
@@ -6,6 +6,7 @@
 [ext_resource path="res://assets/texturas/image2.png" type="Texture" id=4]
 [ext_resource path="res://assets/sonidos/Nivel 1.mp3" type="AudioStream" id=5]
 [ext_resource path="res://assets/font/RobotoSlab-VariableFont_wght.ttf" type="DynamicFontData" id=6]
+[ext_resource path="res://assets/audios/AB1.wav" type="AudioStream" id=7]
 
 [sub_resource type="Theme" id=1]
 
@@ -124,11 +125,15 @@ stream = ExtResource( 3 )
 volume_db = -8.667
 mix_target = 1
 
-[node name="error_fx2" type="AudioStreamPlayer" parent="Sonidos"]
+[node name="musica_fx" type="AudioStreamPlayer" parent="Sonidos"]
 stream = ExtResource( 5 )
-volume_db = -11.133
+volume_db = -19.84
 autoplay = true
 mix_target = 1
+
+[node name="pista_fx" type="AudioStreamPlayer" parent="Sonidos"]
+stream = ExtResource( 7 )
+volume_db = -8.914
 
 [node name="Error_Label" type="Label" parent="."]
 margin_left = 21.0

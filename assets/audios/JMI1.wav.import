@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/JMI1.wav-10d8c2a0058d7827bf1d1cab0d7ce074.sample"
+
+[deps]
+
+source_file="res://assets/audios/JMI1.wav"
+dest_files=[ "res://.import/JMI1.wav-10d8c2a0058d7827bf1d1cab0d7ce074.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
