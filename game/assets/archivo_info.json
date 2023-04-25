@@ -7,7 +7,12 @@
 			"Terminó de gobernar en 1829",
 			"Fue el primer presidente",
 			"Fue resultado de las primeras elecciones federales"
-		]
+		],
+		"sonido" : [
+		"GV1.ogg",
+		"GV2.ogg",
+		"GV3.ogg",
+		"GV4.ogg"]
 	},
 	{
 		"nombre" : "Vicente Guerrero",
@@ -17,7 +22,12 @@
 			"Fue el segundo presidente",
 			"Terminó de gobernar en el año en que empezó",
 			"Su gobierno duró 8 meses"
-		]
+		],
+		"sonido" : [
+		"VG1.ogg",
+		"VG2.ogg",
+		"VG3.ogg",
+		"VG4.ogg"]
 	},
 	{
 		"nombre" : "Jose María Bocanegra",
@@ -27,7 +37,12 @@
 			"Su gobierno duró 7 días",
 			"Fue el tercer presidente",
 			"Cedió su presidencia tras un ataque de insurgentes que rodearon el Palacio Nacional"
-		]
+		],
+		"sonido" : [
+		"JMB1.ogg",
+		"JMB2.ogg",
+		"JMB3.ogg",
+		"JMB4.ogg"]
 	},
 	{
 		"nombre" : "Pedro Vélez",
@@ -37,7 +52,12 @@
 			"Gobernó Junto a Luis Quintanar y Lucas Alamán",
 			"Tercer gobierno de 1829",
 			"Duró por 8 días"
-		]
+		],
+		"sonido" : [
+		"PV1.ogg",
+		"PV2.ogg",
+		"PV3.ogg",
+		"PV4.ogg"]
 	},
 	{
 		"nombre" : "Anastasio Bustamante",
@@ -47,7 +67,12 @@
 			"Terminó de gobernar en agosto de 1932",
 			"Asume el cargo tras una rebelión contra Guerrero",
 			"Tuvo 3 gobiernos entre 1830 y 1841"
-		]
+		],
+		"sonido" : [
+		"AB1.ogg",
+		"AB2.ogg",
+		"AB3.ogg",
+		"AB4.ogg"]
 	},
 	{
 		"nombre" : "Melchor Múzquiz",
@@ -57,7 +82,12 @@
 			"Terminó en diciembre de 1832",
 			"Fue presidente interino durante el cargo de Anastasio Bustamante, quien salió a combatir y no podía mantener su puesto",
 			"Trató de renunciar ante el Congreso, pero le pidieron que siguiera gobernando"
-		]
+		],
+		"sonido" : [
+		"MM1.ogg",
+		"MM2.ogg",
+		"MM3.ogg",
+		"MM4.ogg"]
 	},
 	{
 		"nombre" : "Manuel Gómez Pedraza",
@@ -67,7 +97,12 @@
 			"Termina en marzo de 1833",
 			"Santa Anna, Lorenzo Zavala y Jose María Lobato no le permitieron ejercer su puesto como presidente electo hasta 1932",
 			"Se desterró durante dos años en Francia"
-		]
+		],
+		"sonido" : [
+		"MGP1.ogg",
+		"MGP2.ogg",
+		"MGP3.ogg",
+		"MGP4.ogg"]
 	},
 	{
 		"nombre" : "Valentín Gómez Farías",
@@ -77,7 +112,12 @@
 			"Era vicepresidente, pero tomó el puesto de presidente debido a varias ausencias",
 			"Tuvo 4 mandatos entre 1833 y 1834",
 			"Asumió el cargo varias veces debido a ausencias de Santa Anna"
-		]
+		],
+		"sonido" : [
+		"VGF1.ogg",
+		"VGF2.ogg",
+		"VGF3.ogg",
+		"VGF4.ogg"]
 	}, 
 	{
 		"nombre" : "Antonio López de Santa Anna",
@@ -88,7 +128,13 @@
 			"Comienza su primer mandato en mayo de 1833",
 			"Vendió parte del norte de Sonora y Chihuahua a Estados Unidos",
 			"Tuvo un mandato dictatorial durante los años 1853 - 1855"
-		]
+		],
+		"sonido" : [
+		"ALSA1.ogg",
+		"ALSA2.ogg",
+		"ALSA3.ogg",
+		"ALSA4.ogg",
+		"ALSA5.ogg"]
 	},
 	{
 		"nombre" : "Miuel Barragán",
@@ -98,7 +144,12 @@
 			"Terminó su mandato en febrero de 1836",
 			"Fue un presidente interino para cubrir a Santa Anna",
 			"Renunció a su cargo debido a una enfermedad que le costó la vida 3 días después de renunciar."
-		]
+		],
+		"sonido" : [
+		"MB1.ogg",
+		"MB2.ogg",
+		"MB3.ogg",
+		"MB4.ogg"]
 	},
 	{
 		"nombre" : "José Justo Corro",
@@ -108,7 +159,12 @@
 			"Terminó su mandato en abril de 1837",
 			"Presidente interino para sustituir a Barragán tras su muerte",
 			"Durante su periodo Texas declaró su independencia"
-		]
+		],
+		"sonido" : [
+		"JJC1.ogg",
+		"JJC2.ogg",
+		"JJC3.ogg",
+		"JJC4.ogg"]
 	},
 	{
 		"nombre" : "Nicolás Bravo",
@@ -117,7 +173,12 @@
 			"Presidente interino que cubrió a Santa Anna cuando este cubría a Bustamante",
 			"Inició su mandato en julio de 1839",
 			"Su cargo duró 8 días"
-		]
+		],
+		"sonido" : [
+		"NB1.ogg",
+		"NB2.ogg",
+		"NB3.ogg",
+		"NB4.ogg"]
 	},
 	{
 		"nombre" : "Francisco Javier Echeverría",
@@ -127,7 +188,12 @@
 			"Terminó su mandato en octubre de 1841",
 			"Renunció debido a un golpe de estado",
 			"Fue ministro de Hacienda antes de ser presidente interino"
-		]
+		],
+		"sonido" : [
+		"FJE1.ogg",
+		"FJE2.ogg",
+		"FJE3.ogg",
+		"FJE4.ogg"]
 	},
 	{
 		"nombre" : "Valentín Canalizo",
@@ -136,7 +202,11 @@
 			"Juró la independencia al lado de Iturbide el 2 de marzo de 1821",
 			"Inició su mandato el 4 de octubre de 1843",
 			"Luchó en la guerra Mexicano-Estadounidense de la defensa del golfo"
-		]
+		],
+		"sonido" : [
+		"VC1.ogg",
+		"VC2.ogg",
+		"VC3.ogg"]
 	},
 	{
 		"nombre" : "José Joaquín de Herrera",
@@ -145,7 +215,11 @@
 			"Inició su gubernatura en el año 1844",
 			"Empleó la indemnización de los Tratados de Guadalupe Hidalgo",
 			"Se hizo presidente cuando Santa Anna fue derrotado"
-		]
+		],
+		"sonido" : [
+		"JJH1.ogg",
+		"JJH2.ogg",
+		"JJH3.ogg"]
 	},
 	{
 		"nombre" : "Mariano Paredes y Arrillaga",
