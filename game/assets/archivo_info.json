@@ -230,9 +230,9 @@
 			"Durante su gubernatura, dudó que James K. Polk lanzara una guerra con motivo de la anexión de Texas, por lo que Salas lo depuso de su mando."
 		],
 		"sonido" : [
-		"",
-		"",
-		""]
+		"MPA1.ogg",
+		"MPA2.ogg",
+		"MPA3.ogg"]
 	},
 	{
 		"nombre" : "José Mariano Salas",
@@ -243,9 +243,9 @@
 			"Asumió el poder durante la época de la guerra de Reforma debido a que no había nadie para tomarlo formalmente."
 		],
 		"sonido" : [
-		"",
-		"",
-		""]
+		"JMS1.ogg",
+		"JMS2.ogg",
+		"JMS3.ogg"]
 	},
 	{
 		"nombre" : "Pedro María Anaya",
@@ -256,9 +256,9 @@
 			"Fue tomado como prisionero por la invasión norteamericana el 20 de agosto de 1847 debido a la absoluta falta de municiones."
 		],
 		"sonido" : [
-		"",
-		"",
-		""]
+		"PMA1.ogg",
+		"PMA2.ogg",
+		"PMA3.ogg"]
 	},
 	{
 		"nombre" : "Manuel de la Peña y Peña",
@@ -269,9 +269,9 @@
 			"Fue nombrado consejero de Estado durante el gobierno de Iturbide y le concedieron la cruz de la Orden de Guadalupe."
 		],
 		"sonido" : [
-		"",
-		"",
-		""]
+		"MdlPP1.ogg",
+		"MdlPP2.ogg",
+		"MdlPP3.ogg"]
 	},
 	{
 		"nombre" : "Mariano Arista",
@@ -282,9 +282,9 @@
 			"Renunció a la presidencia el 6 de enero de 1853 debido a la inestabilidad política y se exilió voluntariamente a Europa."
 		],
 		"sonido" : [
-		"",
-		"",
-		""]
+		"MA1.ogg",
+		"MA2.ogg",
+		"MA3.ogg"]
 	},
 	{
 		"nombre" : "Juan Bautista Ceballos",
@@ -295,9 +295,9 @@
 			"Se negó a firmar el Plan del Hospicio y entregó la presidencia a Manuel María Lombrdini el 20 de abril de 1853"
 		],
 		"sonido" : [
-		"",
-		"",
-		""]
+		"JBC1.ogg",
+		"JBC2.ogg",
+		"JBC3.ogg"]
 	},
 	{
 		"nombre" : "Manuel María Lombardini",
@@ -308,9 +308,9 @@
 			"Antes de entregar el poder, emitió un decreto donde designó a Santa Anna como capitán general de mar y tierra, con facultades omnímodas."
 		],
 		"sonido" : [
-		"",
-		"",
-		""]
+		"MML1.ogg",
+		"MML2.ogg",
+		"MML3.ogg"]
 	},
 	{
 		"nombre" : "Martín Carrera",
@@ -321,9 +321,9 @@
 			"Ambos conservadores y liberales negaban el diálogo y lo desconocieron como presidente, por lo que renunció a su cargo el 12 de septiembre de 1855"
 		],
 		"sonido" : [
-		"",
-		"",
-		""]
+		"MC1.ogg",
+		"MC2.ogg",
+		"MC3.ogg"]
 	},
 	{
 	"nombre" : "Rómulo Díaz de la Vega",
@@ -334,9 +334,9 @@
 			"Al triunfo de Juárez, fue sentenciado a dos años de prisión en Puebla."
 		],
 		"sonido" : [
-		"",
-		"",
-		""]
+		"RDdlV1.ogg",
+		"RDdlV2.ogg",
+		"RDdlV3.ogg"]
 	},
 	{
 		"nombre" : "Juan Álvarez Benítez",
@@ -347,9 +347,9 @@
 			"Fue elegido presidente en 1855 pero no pudo mantener el cargo por problemas de salud por lo que lo abandonó el mismo año."
 		],
 		"sonido" : [
-		"",
-		"",
-		""]
+		"JAB1.ogg",
+		"JAB2.ogg",
+		"JAB3.ogg"]
 	},
 	{
 		"nombre" : "Ignacio Comonfort",
@@ -360,9 +360,9 @@
 			"Al momento de ser elegido como presidente de la República por medio de elecciones, Benito Juárez era el presidente de la Suprema Corte de Justicia."
 		],
 		"sonido" : [
-		"",
-		"",
-		""]
+		"IC1.ogg",
+		"IC2.ogg",
+		"IC3.ogg"]
 	},
 	{
 		"nombre" : "Benito Juarez",
@@ -374,10 +374,10 @@
 			"El respeto al derecho ajeno es la paz"
 		],
 		"sonido" : [
-		"",
-		"",
-		"",
-		""]
+		"BJ1.ogg",
+		"BJ2.ogg",
+		"BJ3.ogg",
+		"BJ4.ogg"]
 	},
 	{
 		"nombre" : "Félix Zuloaga",
@@ -390,11 +390,11 @@
 			"Dirigió las obras de fortificación de la ciudad de Monterrey"
 		],
 		"sonido" : [
-		"",
-		"",
-		"",
-		"",
-		""]
+		"FZ1.ogg",
+		"FZ2.ogg",
+		"FZ3.ogg",
+		"FZ4.ogg",
+		"FZ5.ogg"]
 	},
 	{
 		"nombre" : "Miguel Gregorio de la Luz Atenógenes Miramón y Tarelo",
@@ -408,12 +408,12 @@
 			"Comenzó su mandato a los veintisiete años, convirtiéndose en el presidente más joven que ha tenido México."
 		],
 		"sonido" : [
-		"",
-		"",
-		"",
-		"",
-		"",
-		""]
+		"MGdlLAMT1.ogg",
+		"MGdlLAMT2.ogg",
+		"MGdlLAMT3.ogg",
+		"MGdlLAMT4.ogg",
+		"MGdlLAMT5.ogg",
+		"MGdlLAMT6.ogg"]
 	},
 	{
 		"nombre" : "Jose Maria Iglesias",
@@ -425,10 +425,10 @@
 			"Durante su estancia al frente del país, redactó el Plan de Salamanca"
 		],
 		"sonido" : [
-		"",
-		"",
-		"",
-		""]
+		"JMI1.ogg",
+		"JMI2.ogg",
+		"JMI3.ogg",
+		"JMI4.ogg"]
 	},
 	{
 		"nombre" : "Juan N. Mendez",
@@ -440,10 +440,10 @@
 			"Gobernador del Estado de Puebla (1880) y Presidente de la Suprema Corte de Justicia Militar (1884)"
 		],
 		"sonido" : [
-		"",
-		"",
-		"",
-		""]
+		"JNM1.ogg",
+		"JNM2.ogg",
+		"JNM3.ogg",
+		"JNM4.ogg"]
 	},
 	{
 		"nombre" : "Porfirio Díaz",
@@ -456,11 +456,11 @@
 			"Durante su mandato la economía de México se estabilizó y el país experimentó un desarrollo económico sin precedentes"
 		],
 		"sonido" : [
-		"",
-		"",
-		"",
-		"",
-		""]
+		"PD1.ogg",
+		"PD2.ogg",
+		"PD3.ogg",
+		"PD4.ogg",
+		"PD5.ogg"]
 	},
 	{
 		"nombre" : "Manuel González",
@@ -471,9 +471,9 @@
 			"Ocupó los cargos de Gobernador de Guanajuato y Michoacán y Secretario de Guerra y Marina"
 		],
 		"sonido" : [
-		"",
-		"",
-		""]
+		"MG1.ogg",
+		"MG2.ogg",
+		"MG3.ogg"]
 	},
 	{
 		"nombre" : "Francisco de León de la Barra",
@@ -485,10 +485,10 @@
 			"Considerado como el presidente blanco, por su educación, cultura, espíritu viajero y ser católico"
 		],
 		"sonido" : [
-		"",
-		"",
-		"",
-		""]
+		"FLdlB1.ogg",
+		"FLdlB2.ogg",
+		"FLdlB3.ogg",
+		"FLdlB4.ogg"]
 	},
 	{
 		"nombre" : "Francisco I. Madero",
@@ -502,12 +502,12 @@
 			"Conocido por su frase: Un buen gobierno solamente puede existir cuando hay buenos ciudadanos"
 		],
 		"sonido" : [
-		"",
-		"",
-		"",
-		"",
-		"",
-		""]
+		"FIM1.ogg",
+		"FIM2.ogg",
+		"FIM3.ogg",
+		"FIM4.ogg",
+		"FIM5.ogg",
+		"FIM6.ogg"]
 	},
 	{
 		"nombre" : "Pedro Lascuarin Paredes",
@@ -519,10 +519,10 @@
 			"se le conoció como el presidente fugaz, estuvo en el poder sólamente 45 minutos"
 		],
 		"sonido" : [
-		"",
-		"",
-		"",
-		""]
+		"PLP1.ogg",
+		"PLP2.ogg",
+		"PLP3.ogg",
+		"PLP4.ogg"]
 	},
 	{
 		"nombre" : "Manuel Robles Pezuela",
@@ -535,11 +535,11 @@
 			"Arrestado por desobedecer las órdenes de Benito Juárez al buscar alianzas con invasores franceses"
 		],
 		"sonido" : [
-		"",
-		"",
-		"",
-		"",
-		""]
+		"MRP1.ogg",
+		"MRP2.ogg",
+		"MRP3.ogg",
+		"MRP4.ogg",
+		"MRP5.ogg"]
 	},
 	{
 		"nombre" : "Fernando Maximiliano de Hasburgo",
@@ -552,11 +552,11 @@
 			"Conservó algunas de las Leyes de Reforma, como la desamortización de los bienes eclesiásticos."
 		],
 		"sonido" : [
-		"",
-		"",
-		"",
-		"",
-		""]
+		"FMH1.ogg",
+		"FMH2.ogg",
+		"FMH3.ogg",
+		"FMH4.ogg",
+		"FMH5.ogg"]
 	},
 	{
 		"nombre" : "Sebastian Lerdo de Tejada",
@@ -567,9 +567,9 @@
 			"Durante su mandato se inauguró el ferrocarril de México a Veracruz y se produjo la escisión del Partido Liberal"
 		],
 		"sonido" : [
-		"",
-		"",
-		""]
+		"SLT1.ogg",
+		"SLT2.ogg",
+		"SLT3.ogg"]
 	},
 	{
 		"nombre" : "Victoriano Huerta Ortega",
@@ -580,9 +580,9 @@
 			"Para llegar al poder, organizó un golpe de estado al presidente Francisco I. Madero que fue conocido como la decena trágica."
 		],
 		"sonido" : [
-		"",
-		"",
-		""]
+		"VHO1.ogg",
+		"VHO2.ogg",
+		"VHO3.ogg"]
 	},
 	{
 		"nombre" : "Francisco S. Carvajal",
@@ -594,10 +594,10 @@
 			"Negoció con Venustiano Carranza el respeto a la democracia y la legalidad para la transferencia del mando presidencial en paz"
 		],
 		"sonido" : [
-		"",
-		"",
-		"",
-		""]
+		"FSC1.ogg",
+		"FSC2.ogg",
+		"FSC3.ogg",
+		"FSC4.ogg"]
 	},
 	{
 		"nombre" : "Eulalio Gutiérrez",
@@ -609,10 +609,10 @@
 			"Huyó de la capital de la República el 16 de enero de 1915 e intentó trasladar el Gobierno a San Luis Potosí."
 		],
 		"sonido" : [
-		"",
-		"",
-		"",
-		""]
+		"EG1.ogg",
+		"EG2.ogg",
+		"EG3.ogg",
+		"EG4.ogg"]
 	},
 	{
 		"nombre" : "Roque González Garza",
@@ -623,9 +623,9 @@
 			"Después de la caída del presidente Eulalio Gutiérrez, ocupó la presidencia de la República del 16 de enero al 11 de junio de 1915."
 		],
 		"sonido" : [
-		"",
-		"",
-		""]
+		"RGG1.ogg",
+		"RGG2.ogg",
+		"RGG3.ogg"]
 	},
 	{
 		"nombre" : "Francisco Lagos Chazaro",
@@ -638,11 +638,11 @@
 			"En enero de 1916 se dirigía al norte para unirse a Francisco Villa, cuando la Convención se disolvió y mejor se dirigió a Manzanillo para embarcarse rumbo a Centroamérica donde estableció su residencia en Costa Rica, Honduras y Nicaragua."
 		],
 		"sonido" : [
-		"",
-		"",
-		"",
-		"",
-		""]
+		"FLC1.ogg",
+		"FLC2.ogg",
+		"FLC3.ogg",
+		"FLC4.ogg",
+		"FLC5.ogg"]
 	},
 	{
 		"nombre" : "Venustiano Carranza",
@@ -654,10 +654,10 @@
 			"Finalizó su cargo el 30 de noviembre de 1920."
 		],
 		"sonido" : [
-		"",
-		"",
-		"",
-		""]
+		"VCar1.ogg",
+		"VCar2.ogg",
+		"VCar3.ogg",
+		"VCar4.ogg"]
 	},
 	{
 		"nombre" : "Adolfo de la Huerta",
@@ -668,9 +668,9 @@
 			"Villa le comunicó su decisión de rendirse; después de los tratados de Sabinas, que pusieron fin al levantamiento villista."
 		],
 		"sonido" : [
-		"",
-		"",
-		""]
+		"AdlH1.ogg",
+		"AdlH2.ogg",
+		"AdlH3.ogg"]
 	},
 	{
 		"nombre" : "Álvaro Obregón",
@@ -681,9 +681,9 @@
 			"Después de la derrota de las tropas carrancistas, en septiembre de 1920 se celebraron las elecciones y obtuvo una rotunda victoria, que le permitió asumir la presidencia para el período de 1920 a 1924. "
 		],
 		"sonido" : [
-		"",
-		"",
-		""]
+		"AO1.ogg",
+		"AO2.ogg",
+		"AO3.ogg"]
 	},
 	{
 		"nombre" : "Plutarco Elias Calles",
@@ -699,14 +699,14 @@
 			"La elección para su sucesor se caracterizó por la violencia."
 		],
 		"sonido" : [
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		""]
+		"PEC1.ogg",
+		"PEC2.ogg",
+		"PEC3.ogg",
+		"PEC4.ogg",
+		"PEC5.ogg",
+		"PEC6.ogg",
+		"PEC7.ogg",
+		"PEC8.ogg"]
 	},
 	{
 		"nombre" : "Emilio Portes Gil",
@@ -718,10 +718,10 @@
 			"Fortaleció las organizaciones campesinas."
 		],
 		"sonido" : [
-		"",
-		"",
-		"",
-		""]
+		"EPG1.ogg",
+		"EPG2.ogg",
+		"EPG3.ogg",
+		"EPG4.ogg"]
 	},
 	{
 		"nombre" : "Pascual Ortiz Rubio",
@@ -733,10 +733,10 @@
 			"Durante su gobierno se fundó la Comisión Nacional de Turismo; se promulgó la Ley Federal del Trabajo, y México ingresó a la liga de las Naciones."
 		],
 		"sonido" : [
-		"",
-		"",
-		"",
-		""]
+		"POR1.ogg",
+		"POR2.ogg",
+		"POR3.ogg",
+		"POR4.ogg"]
 	},
 	{
 		"nombre" : "Abelardo L. Rodríguez",
@@ -751,13 +751,13 @@
 			"Inauguró el Palacio de Bellas Artes."
 		],
 		"sonido" : [
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		""]
+		"ALR1.ogg",
+		"ALR2.ogg",
+		"ALR3.ogg",
+		"ALR4.ogg",
+		"ALR5.ogg",
+		"ALR6.ogg",
+		"ALR7.ogg"]
 	},
 	{
 		"nombre" : "Lázaro Cárdenas",
@@ -773,14 +773,14 @@
 			"Nacionalizó las propiedades de las compañías petroleras extranjeras."
 		],
 		"sonido" : [
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		""]
+		"LC1.ogg",
+		"LC2.ogg",
+		"LC3.ogg",
+		"LC4.ogg",
+		"LC5.ogg",
+		"LC6.ogg",
+		"LC7.ogg",
+		"LC8.ogg"]
 	},
 	{
 		"nombre" : "Manuel Ávila Camacho",
@@ -791,9 +791,9 @@
 			"Envió al Escuadrón 201 como apoyo a las fuerzas Aliadas durante la 2.ª Guerra Mundial."
 		],
 		"sonido" : [
-		"",
-		"",
-		""]
+		"MAC1.ogg",
+		"MAC2.ogg",
+		"MAC3.ogg"]
 	},
 	{
 		"nombre" : "Miguel Alemán Valdés",
@@ -804,9 +804,9 @@
 			"Anunció la separación de Baja California y Baja California Sur"
 		],
 		"sonido" : [
-		"",
-		"",
-		""]
+		"MAV1.ogg",
+		"MAV2.ogg",
+		"MAV3.ogg"]
 	},
 	{
 		"nombre" : "Adolfo Ruíz Cortines",
@@ -817,9 +817,9 @@
 			"Impulsó la Campaña Nacional para la Erradicación del Paludismo"
 		],
 		"sonido" : [
-		"",
-		"",
-		""]
+		"ARC1.ogg",
+		"ARC2.ogg",
+		"ARC3.ogg"]
 	},
 	{
 		"nombre" : "Adolfo López Mateos",
@@ -830,9 +830,9 @@
 			"Estableció la Comisión Nacional de Libros de Texto Gratuitos."
 		],
 		"sonido" : [
-		"",
-		"",
-		""]
+		"ALM1.ogg",
+		"ALM2.ogg",
+		"ALM3.ogg"]
 	},
 	{
 		"nombre" : "Gustavo Díaz Ordaz",
@@ -843,9 +843,9 @@
 			"Durante su gobierno se organizó en el país la Olimpiada de 1968"
 		],
 		"sonido" : [
-		"",
-		"",
-		""]
+		"GDO1.ogg",
+		"GD02.ogg",
+		"GD03.ogg"]
 	},
 	{
 		"nombre" : "Luis Echeverría Álvarez",
@@ -856,9 +856,9 @@
 			"Una ola de inseguridad durante su gobierno provocó secuestros y asesinatos, entre ellos el empresario neoleonés Don Eugenio Garza Sada."
 		],
 		"sonido" : [
-		"",
-		"",
-		""]
+		"LEA1.ogg",
+		"LEA2.ogg",
+		"LEA3.ogg"]
 	},
 	{
 		"nombre" : "José López Portillo",
@@ -869,9 +869,9 @@
 			"El país pasó la peor crisis económica desde la época revolucionaria."
 		],
 		"sonido" : [
-		"",
-		"",
-		""]
+		"JLP1.ogg",
+		"JLP2.ogg",
+		"JLP3.ogg"]
 	},
 	{
 		"nombre" : "Miguel de la Madrid Hurtado",
@@ -882,9 +882,9 @@
 			"La moneda mexicana perdió gran parte de su valor con respecto al dólar americano."
 		],
 		"sonido" : [
-		"",
-		"",
-		""]
+		"MdlMH1.ogg",
+		"MdlMH2.ogg",
+		"MdlMH3.ogg"]
 	},
 	{
 		"nombre" : "Carlos Salinas de Gortari",
@@ -895,9 +895,9 @@
 			"El gobierno vendió Teléfonos de México (TELMEX) pasando a ser de carácter privado."
 		],
 		"sonido" : [
-		"",
-		"",
-		""]
+		"CSG1.ogg",
+		"CSG2.ogg",
+		"CSG3.ogg"]
 	},
 	{
 		"nombre" : "Ernesto Zedillo Ponce de León",
@@ -908,9 +908,9 @@
 			"Loz Zapatistas, grupo armado ubicado en Chiapas, comienzan a desequilibrar la paz nacional."
 		],
 		"sonido" : [
-		"",
-		"",
-		""]
+		"EZPDL1.ogg",
+		"EZPDL2.ogg",
+		"EZPDL3.ogg"]
 	},
 	{
 		"nombre" : "Vicente Fox Quezada",
@@ -921,9 +921,9 @@
 			"Sus intentos por crear una reforma migratoria con Estados Unidos fueron frenados por los ataques del 11 de septiembre en aquel país."
 		],
 		"sonido" : [
-		"",
-		"",
-		""]
+		"VFQ1.ogg",
+		"VFQ2.ogg",
+		"VFQ3.ogg"]
 	},
 	{
 		"nombre" : "Felipe Calderón Hinojosa",
@@ -934,9 +934,9 @@
 			"Su gobierno suprimió las Secretarías de Turismo, Reforma agraria y de la Función Pública."
 		],
 		"sonido" : [
-		"",
-		"",
-		""]
+		"FCH1.ogg",
+		"FCH2.ogg",
+		"FCH3.ogg"]
 	},
 	{
 		"nombre" : "Enrique Peña Nieto",
@@ -947,9 +947,9 @@
 			"Durante su gobierno, Joaquín “El Chapo” Guzmán escapa de prisión a través de un túnel."
 		],
 		"sonido" : [
-		"",
-		"",
-		""]
+		"EPN1.ogg",
+		"EPN2.ogg",
+		"EPN3.ogg"]
 	},
 	{
 		"nombre" : "Andrés Manuel López Obrador",
@@ -961,9 +961,9 @@
 			"Su gobierno presenció la pandemia COVID-19"
 		],
 		"sonido" : [
-		"",
-		"",
-		"",
-		""]
+		"AMLO1.ogg",
+		"AMLO2.ogg",
+		"AMLO3.ogg",
+		"AMLO4.ogg"]
 	}
 ]
