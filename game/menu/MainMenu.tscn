@@ -10,6 +10,8 @@ font_data = ExtResource( 3 )
 
 [sub_resource type="DynamicFont" id=1]
 size = 61
+outline_size = 5
+outline_color = Color( 0.231373, 0.133333, 0.0470588, 1 )
 font_data = ExtResource( 3 )
 
 [node name="Control" type="Control"]
@@ -60,6 +62,7 @@ margin_right = 396.0
 margin_bottom = -155.0
 grow_horizontal = 2
 grow_vertical = 2
+custom_colors/font_color = Color( 0.976471, 0.976471, 0.976471, 1 )
 custom_fonts/font = SubResource( 1 )
 text = "Adivina Quién, Presidentes"
 align = 1

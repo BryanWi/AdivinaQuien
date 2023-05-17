@@ -5,6 +5,8 @@ extends Node
 # var a = 2
 # var b = "text"
 
+var points = 0
+
 var scenes:Dictionary = {
 	"main_menu" : "res://game/menu/MainMenu.tscn",
 	"juego" : "res://game/Game.tscn",

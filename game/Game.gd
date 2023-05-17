@@ -8,12 +8,15 @@ var pistas: Array
 var n_pista: Array = [0,1,2,3]
 var pistas_sound: Array
 var errores:int = 0
+var partida_ganada:bool = false
 
+var mute_pistas = false
 const TARJETAS_TABLERO = 14
 
 onready var pistasLabel:RichTextLabel = $FondoPistas/Pistas
 onready var tablero = $FondoTablero/Tablero
 onready var pista_fx = $Sonidos/pista_fx
+onready var points_lbl = $Points_Label
 
 
 var arch: Array = read_json_file("res://game/assets/archivo_info.json")
@@ -26,7 +29,7 @@ func _ready():
 	$WinScreen.visible = false
 	
 	pistasLabel.set_scroll_follow(true)
-	
+	points_lbl.text = "Puntos: " + str(Global.points)
 	new_game()
 
 
@@ -35,6 +38,7 @@ func new_game():
 	pistasLabel.text = ""
 	errores = 0
 	pistas = []
+	partida_ganada = false
 	$Error_Label.text = "Errores "+str(errores)+"/3"
 	
 	#vacíamos el tablero actual
@@ -84,11 +88,19 @@ func new_game():
 
 
 func check_answer(nombre: String, btn_name: String):
+	if partida_ganada == true:
+			return
 	if (nombre == respuesta):
 		print("Correcto")
+		Global.points += 10
+		points_lbl.text = "Puntos: " + str(Global.points)
+		
 		game_won()
 	else:
 		print("incorrecto")
+		Global.points -= 5
+		points_lbl.text = "Puntos: " + str(Global.points)
+		
 		play_sound("error")
 		errores += 1
 		$Error_Label.text = "Errores "+str(errores)+"/3"
@@ -97,6 +109,7 @@ func check_answer(nombre: String, btn_name: String):
 			return
 		tablero.get_node(btn_name).disable()
 		set_pista()
+		
 #	print("respuesta: "+respuesta)
 #	print("nombre: "+nombre)
 
@@ -104,15 +117,22 @@ func game_lost():
 	new_game()
 
 func game_won():
+	partida_ganada = true
 	$WinScreen.visible = true
 	play_sound("Win")
+	for p in range(n_pista.size()):
+		set_pista()
+		print(p)
 
 func set_pista():
+	if n_pista.size() == 0:
+		return
 	if pistasLabel.text != "":
 		pistasLabel.text +="\n\n"
 	pistasLabel.text += pistas[n_pista[0]]
 	pista_fx.stream = load("res://assets/audios/" + pistas_sound[n_pista.pop_at(0)])
-	pista_fx.play()
+	if mute_pistas == false:
+		pista_fx.play()
 	
 
 func _on_NuevoJuego_button_down():
@@ -141,3 +161,20 @@ func read_json_file(filename):
 
 func _on_Regresar_button_down():
 	Global.change_scene("main_menu")
+
+
+func _on_music_mute_button_down():
+	if $Sonidos/music_mute.pressed == false:
+		$Sonidos/musica_fx.playing = false
+	else:
+		$Sonidos/musica_fx.playing = true
+
+
+
+func _on_voide_mute_button_down():
+	if $Sonidos/voice_mute.pressed == false:
+		pista_fx.playing = false
+		mute_pistas = true
+	else:
+		pista_fx.playing = true
+		mute_pistas = false
