@@ -7,10 +7,10 @@
 [ext_resource path="res://assets/sonidos/Nivel 1.mp3" type="AudioStream" id=5]
 [ext_resource path="res://assets/font/RobotoSlab-VariableFont_wght.ttf" type="DynamicFontData" id=6]
 [ext_resource path="res://assets/audios/AB1.wav" type="AudioStream" id=7]
-[ext_resource path="res://assets/icon/music.png" type="Texture" id=8]
-[ext_resource path="res://assets/icon/music_mute.png" type="Texture" id=9]
-[ext_resource path="res://assets/icon/sonido.png" type="Texture" id=10]
-[ext_resource path="res://assets/icon/sonido_mute.png" type="Texture" id=11]
+[ext_resource path="res://assets/icon/Sound_on.png" type="Texture" id=8]
+[ext_resource path="res://assets/icon/Volumen_on.png" type="Texture" id=9]
+[ext_resource path="res://assets/icon/Volumen_off.png" type="Texture" id=10]
+[ext_resource path="res://assets/icon/Sound_off.png" type="Texture" id=11]
 [ext_resource path="res://assets/font/RobotoSlab-Bold.ttf" type="DynamicFontData" id=12]
 
 [sub_resource type="Theme" id=1]
@@ -153,7 +153,7 @@ margin_right = 104.0
 margin_bottom = 48.0
 toggle_mode = true
 texture_normal = ExtResource( 8 )
-texture_pressed = ExtResource( 9 )
+texture_pressed = ExtResource( 11 )
 expand = true
 
 [node name="voice_mute" type="TextureButton" parent="Sonidos"]
@@ -163,8 +163,8 @@ margin_right = 56.0
 margin_bottom = 48.0
 toggle_mode = true
 action_mode = 0
-texture_normal = ExtResource( 10 )
-texture_pressed = ExtResource( 11 )
+texture_normal = ExtResource( 9 )
+texture_pressed = ExtResource( 10 )
 expand = true
 
 [node name="Error_Label" type="Label" parent="."]
@@ -186,6 +186,7 @@ align = 1
 valign = 1
 
 [node name="WinScreen" type="ColorRect" parent="."]
+visible = false
 anchor_right = 1.0
 anchor_bottom = 1.0
 color = Color( 1, 1, 1, 0.0666667 )

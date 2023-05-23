@@ -7,6 +7,8 @@ extends Node
 
 var points = 0
 
+var dificultad = 0
+
 var scenes:Dictionary = {
 	"main_menu" : "res://game/menu/MainMenu.tscn",
 	"juego" : "res://game/Game.tscn",
