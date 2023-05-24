@@ -7,6 +7,7 @@ extends Node
 
 var points = 0
 
+## valores de dificultad: 0 (facill), 1(medio), 2(difícil)
 var dificultad = 0
 
 var scenes:Dictionary = {

@@ -14,13 +14,15 @@ var mute_pistas = false
 const TARJETAS_TABLERO = 14
 
 onready var pistasLabel:RichTextLabel = $FondoPistas/Pistas
+onready var rachaLabel:Label = $Racha_Label
 onready var tablero = $FondoTablero/Tablero
 onready var pista_fx = $Sonidos/pista_fx
 onready var points_lbl = $Points_Label
 
-
 var arch: Array = read_json_file("res://game/assets/archivo_info.json")
 var doc : Dictionary
+
+var racha = 0
 
 func _ready():
 	for i in arch.size():  
@@ -30,7 +32,9 @@ func _ready():
 	
 	pistasLabel.set_scroll_follow(true)
 	points_lbl.text = "Puntos: " + str(Global.points)
+	racha_update()
 	new_game()
+	
 
 
 func new_game():
@@ -61,7 +65,6 @@ func new_game():
 		pistas_sound = [] + doc[presi]["sonido"]
 	
 	
-	n_pista.shuffle() # Se aleatoriza el orden de las pistas
 	
 	respuesta = doc[presi]["nombre"] # Se guarda la respuest actual
 	print(respuesta)
@@ -83,20 +86,30 @@ func new_game():
 		T.connect("send_respuesta",self,"check_answer")
 		tablero.add_child(T)
 	
-	# Se coloca la primer pista
-	set_pista()
+	# Se coloca la primer pista o todas si es modo fácil
+	if Global.dificultad == 0:
+		show_all_pistas()
+	if Global.dificultad == 1:
+		set_pista()
+	if Global.dificultad == 2:
+		n_pista.shuffle() # Se aleatoriza el orden de las pistas
+		set_pista()
 
 
 func check_answer(nombre: String, btn_name: String):
 	if partida_ganada == true:
 			return
 	if (nombre == respuesta):
+		racha += 1
 		print("Correcto")
-		Global.points += 10
+		#Agregar puntos
+		dar_puntos()
+		
 		points_lbl.text = "Puntos: " + str(Global.points)
 		
 		game_won()
 	else:
+		racha = 0
 		print("incorrecto")
 		Global.points -= 5
 		points_lbl.text = "Puntos: " + str(Global.points)
@@ -109,9 +122,25 @@ func check_answer(nombre: String, btn_name: String):
 			return
 		tablero.get_node(btn_name).disable()
 		set_pista()
+	racha_update()
 		
 #	print("respuesta: "+respuesta)
 #	print("nombre: "+nombre)
+func dar_puntos():
+	var mult:float = 1
+	if Global.dificultad == 0:
+		mult = 1
+	elif Global.dificultad == 1 and racha >= 2:
+		mult = 1.2
+	elif Global.dificultad == 2 and racha >= 3:
+		mult = 1.5
+	else:
+		mult = 1
+	
+	Global.points += 10 * mult
+
+func racha_update():
+	rachaLabel.text = "Racha: " + str(racha)
 
 func game_lost():
 	new_game()
@@ -120,18 +149,24 @@ func game_won():
 	partida_ganada = true
 	$WinScreen.visible = true
 	play_sound("Win")
+	show_all_pistas()
+
+func show_all_pistas():
 	for p in range(n_pista.size()):
 		set_pista()
 		print(p)
 
 func set_pista():
-	if n_pista.size() == 0:
+	
+	
+	if n_pista.size() == 0 :
 		return
 	if pistasLabel.text != "":
 		pistasLabel.text +="\n\n"
 	pistasLabel.text += pistas[n_pista[0]]
 	pista_fx.stream = load("res://assets/audios/" + pistas_sound[n_pista.pop_at(0)])
-	if mute_pistas == false:
+	
+	if mute_pistas == false and !partida_ganada:
 		pista_fx.play()
 	
 

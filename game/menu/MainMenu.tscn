@@ -36,12 +36,37 @@ margin_right = 298.0
 margin_bottom = 102.0
 custom_constants/separation = 20
 
-[node name="Jugar" type="Button" parent="VBoxContainer"]
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+margin_right = 596.0
+margin_bottom = 70.0
+custom_constants/separation = 20
+alignment = 1
+
+[node name="JugarFacil" type="Button" parent="VBoxContainer/HBoxContainer"]
+margin_right = 200.0
+margin_bottom = 70.0
+rect_min_size = Vector2( 200, 70 )
+size_flags_horizontal = 3
+custom_fonts/font = SubResource( 2 )
+text = "Fácil"
+
+[node name="JugarMedio" type="Button" parent="VBoxContainer/HBoxContainer"]
+margin_left = 220.0
+margin_right = 398.0
+margin_bottom = 70.0
+rect_min_size = Vector2( 0, 70 )
+size_flags_horizontal = 3
+custom_fonts/font = SubResource( 2 )
+text = "Medio"
+
+[node name="JugarDificil" type="Button" parent="VBoxContainer/HBoxContainer"]
+margin_left = 418.0
 margin_right = 596.0
 margin_bottom = 70.0
 rect_min_size = Vector2( 0, 70 )
+size_flags_horizontal = 3
 custom_fonts/font = SubResource( 2 )
-text = "Jugar"
+text = "Difícil"
 
 [node name="Estudiar" type="Button" parent="VBoxContainer"]
 margin_top = 90.0
@@ -67,5 +92,7 @@ custom_fonts/font = SubResource( 1 )
 text = "Adivina Quién, Presidentes"
 align = 1
 
-[connection signal="button_up" from="VBoxContainer/Jugar" to="." method="_on_Jugar_button_up"]
+[connection signal="button_up" from="VBoxContainer/HBoxContainer/JugarFacil" to="." method="_on_JugarFacil_button_up"]
+[connection signal="button_up" from="VBoxContainer/HBoxContainer/JugarMedio" to="." method="_on_JugarMedio_button_up"]
+[connection signal="button_up" from="VBoxContainer/HBoxContainer/JugarDificil" to="." method="_on_JugarDificil_button_up"]
 [connection signal="button_up" from="VBoxContainer/Estudiar" to="." method="_on_Estudiar_button_up"]

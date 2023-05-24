@@ -185,6 +185,15 @@ text = "Puntos: ##"
 align = 1
 valign = 1
 
+[node name="Racha_Label" type="Label" parent="."]
+margin_left = 122.0
+margin_top = 10.0
+margin_right = 205.0
+margin_bottom = 54.0
+text = "Racha: ##"
+align = 1
+valign = 1
+
 [node name="WinScreen" type="ColorRect" parent="."]
 visible = false
 anchor_right = 1.0
