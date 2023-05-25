@@ -75,3 +75,11 @@ func read_json_file(filename):
 
 func _on_Regresar_button_down():
 	Global.change_scene("main_menu")
+
+
+func _on_music_mute_button_down():
+	if $Sonidos/music_mute.pressed == false:
+		$Sonidos/musica_fx.playing = false
+	else:
+		$Sonidos/musica_fx.playing = true
+

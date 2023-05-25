@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://assets/sonidos/Sonido Error.wav" type="AudioStream" id=1]
 [ext_resource path="res://assets/sonidos/Sonido Victoria.wav" type="AudioStream" id=2]
@@ -6,6 +6,8 @@
 [ext_resource path="res://assets/sonidos/Nivel 1.mp3" type="AudioStream" id=4]
 [ext_resource path="res://game/estudio/Estudio.gd" type="Script" id=5]
 [ext_resource path="res://assets/font/RobotoSlab-VariableFont_wght.ttf" type="DynamicFontData" id=6]
+[ext_resource path="res://assets/icon/Sound_off.png" type="Texture" id=7]
+[ext_resource path="res://assets/icon/Sound_on.png" type="Texture" id=8]
 
 [sub_resource type="Theme" id=1]
 
@@ -114,11 +116,21 @@ stream = ExtResource( 1 )
 volume_db = -8.667
 mix_target = 1
 
-[node name="error_fx2" type="AudioStreamPlayer" parent="Sonidos"]
+[node name="musica_fx" type="AudioStreamPlayer" parent="Sonidos"]
 stream = ExtResource( 4 )
 volume_db = -11.133
 autoplay = true
 mix_target = 1
+
+[node name="music_mute" type="TextureButton" parent="Sonidos"]
+margin_left = 19.0
+margin_top = 12.0
+margin_right = 59.0
+margin_bottom = 52.0
+toggle_mode = true
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 7 )
+expand = true
 
 [node name="WinScreen" type="ColorRect" parent="."]
 visible = false
@@ -143,3 +155,4 @@ valign = 1
 
 [connection signal="button_down" from="Regresar" to="." method="_on_Regresar_button_down"]
 [connection signal="finished" from="Sonidos/win_fx" to="." method="_on_win_fx_finished"]
+[connection signal="button_down" from="Sonidos/music_mute" to="." method="_on_music_mute_button_down"]
