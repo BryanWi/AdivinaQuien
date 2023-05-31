@@ -46,10 +46,10 @@ func new_game():
 
 
 func check_answer(nombre: String, _btn_name: String):
-	pistasLabel.text = nombre
+	pistasLabel.bbcode_text = "[font=res://assets/font/NombrePresi.tres]"+ nombre + "[/font]"
 	pistas = doc[nombre]["pistas"]
 	for i in pistas:
-		pistasLabel.text +=  "\n\n" + i
+		pistasLabel.bbcode_text +=  "\n" + i
 
 
 func play_sound(sonido: String) ->void:
